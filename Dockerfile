@@ -1,34 +1,24 @@
-# Используем базовый образ с Java 8 (необходима для Minecraft 1.12.2)
-FROM openjdk:8-jre-alpine
+# Используем образ с Java 17 (необходима для Minecraft 1.20.1 Fabric)
+FROM eclipse-temurin:17-jre-alpine
 
 # Устанавливаем рабочую директорию
 WORKDIR /minecraft
 
-# Устанавливаем переменные окружения
-ENV MINECRAFT_VERSION=1.12.2
-ENV FORGE_VERSION=14.23.5.2860
-ENV SERVER_JAR=forge-${MINECRAFT_VERSION}-${FORGE_VERSION}.jar
-ENV MEMORY=2G
+# Устанавливаем bash для скриптов
+RUN apk add --no-cache bash
 
-# Устанавливаем wget для загрузки файлов
-RUN apk add --no-cache wget bash
+# Копируем все файлы сервера
+COPY . /minecraft/
 
-# Создаем директории
-RUN mkdir -p /minecraft/mods /minecraft/config /minecraft/world
-
-# Копируем файлы конфигурации
-COPY server.properties /minecraft/
-COPY eula.txt /minecraft/
-COPY start.sh /minecraft/
-
-# Делаем скрипт запуска исполняемым
+# Устанавливаем права на выполнение
 RUN chmod +x /minecraft/start.sh
+
+# Создаем директории если не существуют
+RUN mkdir -p /minecraft/world /minecraft/logs
 
 # Открываем порт для сервера
 EXPOSE 25565
 
 # Запускаем сервер
 CMD ["/minecraft/start.sh"]
-
-
 

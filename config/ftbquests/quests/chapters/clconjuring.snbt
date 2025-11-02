@@ -1,0 +1,801 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "clconjuring"
+	group: "28A047DAEA79CB0D"
+	icon: "conjuring:soulfire_forge"
+	id: "581EA9A7E0595287"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "conjuring:item/abundance_charm"
+			order: 1
+			rotation: 0.0d
+			width: 5.0d
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 100.0d
+			hover: [ ]
+			image: "conjuring:textures/gui/froge.png"
+			rotation: 0.0d
+			width: 100.0d
+			x: 4.0d
+			y: -4.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Чтобы она работала &nнужно активировать её огнивом"
+				""
+				"&4&l&oВсе крафты показанные на картинках делаются в этом блоке!"
+			]
+			id: "429C77EF0394FE46"
+			rewards: [
+				{
+					id: "4FF14D56BB780C0E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1D41EF4AA44832D8"
+					item: {
+						Count: 1b
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "56D7224200182A9A"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04A6CB84C8AF4A02"
+				item: "conjuring:soulfire_forge"
+				type: "item"
+			}]
+			title: "&4&lКузница Огнедуш"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["429C77EF0394FE46"]
+			description: [
+				"Нужен для связывания пьедисталов и основного блока конструкции"
+				""
+				"Шифт+ПКМ по пьедисталу -> Шифт+ПКМ по основному блоку конструкции"
+				""
+				"{image:ftbquests:block/jezl width:200 height:100 align:1}"
+			]
+			id: "6AEBAA0EE6FD864D"
+			rewards: [
+				{
+					id: "553375F8162D6950"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "76FD43BD98FBD159"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3246726A0225374B"
+				item: "conjuring:conjuring_scepter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["429C77EF0394FE46"]
+			description: [
+				"Ключевой материал мода"
+				"{image:ftbquests:block/cplav width:100 height:100 align:1}"
+			]
+			id: "7F1AB391AF2E32EB"
+			rewards: [
+				{
+					id: "51A1F50FCDB46E21"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "3C3B44295E70C102"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "38A13142DD7353C5"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "30DA654331A4BC5F"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3176ABAFD774C9C0"
+				item: "conjuring:soul_alloy"
+				type: "item"
+			}]
+			title: "&6Сплав душ"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"429C77EF0394FE46"
+				"55B4C62FAA3207FA"
+				"1B1E9F217D891082"
+			]
+			description: [
+				"Нужен для &6инструментов из сплава душ"
+				"{image:ftbquests:block/Lomtick width:100 height:100 align:1}"
+			]
+			id: "57202696B7493B70"
+			rewards: [
+				{
+					id: "01B5D81C07566C9A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6CE8707067B5DC82"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09B5C280A04D1C8A"
+				item: "conjuring:soul_slice"
+				type: "item"
+			}]
+			title: "&b&lЛомтик души"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["Выпадает из &1спавнера"]
+			id: "55B4C62FAA3207FA"
+			rewards: [
+				{
+					id: "11EBD0316AF68659"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "7C53F210A6C89D2B"
+					item: "conjuring:conjuration_essence"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "6471D01A07042896"
+				item: "conjuring:conjuration_essence"
+				type: "item"
+			}]
+			title: "&b&lЭссенция призыва"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["55B4C62FAA3207FA"]
+			description: ["Шифт+ПКМ &b&lЭссенцией призыва&r об &eкамень,чернит или глубинный сланец&r, чтобы получить 4 &bфрагмента"]
+			id: "10254689B8554A9E"
+			rewards: [
+				{
+					id: "318D983984D95C92"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "0716078564272136"
+					item: "conjuring:lesser_conjuration_essence"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "3F3180F091C647C8"
+				item: "conjuring:lesser_conjuration_essence"
+				type: "item"
+			}]
+			title: "&bМалая эссенция призыва"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["55B4C62FAA3207FA"]
+			description: [
+				"Нужен для получения &l&bЭссенции душ&r из &1мобов&r, а не &1спавнеров&r"
+				""
+				"Чтобы получить &b&lэссенцию&r нужно убить &1моба&r снарядом"
+				""
+				"Также является улучшенной версией жезла призывателя"
+				"{image:ftbquests:block/jezl_up width:100 height:100 align:1}"
+			]
+			id: "576EF5AD0B9B66DF"
+			rewards: [
+				{
+					id: "4D64A5C23D572071"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "126A0DAD108C35E5"
+					item: "conjuring:lesser_conjuration_essence"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E2A0A428164B475"
+				item: "conjuring:superior_conjuring_scepter"
+				type: "item"
+			}]
+			title: "&b&lВысасывание душ"
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7F1AB391AF2E32EB"
+				"6AEBAA0EE6FD864D"
+			]
+			description: [
+				"Нужно построить структуру как на &dскрине&r и запитать &b&lЭссенцией призыва"
+				""
+				"Все предметы делаются по аналогии с киркой(cкрин 2)."
+				""
+				"Для активации крафта нажмите ПКМ жезлом по главному блоку структуры"
+				""
+				"{image:ftbquests:block/tkach width:200 height:100 align:1}"
+				""
+				"{image:ftbquests:block/instrum width:200 height:100 align:1}"
+			]
+			icon: "conjuring:soul_weaver"
+			id: "34D0AE21CF17DF7D"
+			rewards: [
+				{
+					id: "0654373F4A4889B0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "72740F88B23CC546"
+					item: "conjuring:conjuration_essence"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "144612720752882B"
+					item: "conjuring:soul_weaver"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2E122A257F1217E1"
+					item: { Count: 4b, id: "conjuring:blackstone_pedestal" }
+					type: "item"
+				}
+				{
+					id: "75D3ADB7E3C88C86"
+					item: "conjuring:conjuration_essence"
+					type: "item"
+				}
+			]
+			title: "&4&lРитуал ткача Душ"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7F1AB391AF2E32EB"
+				"6AEBAA0EE6FD864D"
+			]
+			description: [
+				"Нужно построить структуру как на &dскрине&r и запитать &7&lПеском душ&r"
+				"{image:ftbquests:block/voronka width:200 height:100 align:1}"
+			]
+			icon: "conjuring:soul_funnel"
+			id: "1E59C2CC879BBE4B"
+			rewards: [{
+				id: "2EFC1C28F19E2334"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "5B9929EDD9FECA83"
+					item: "conjuring:soul_funnel"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6A7ABBD51142D5DC"
+					item: { Count: 4b, id: "conjuring:blackstone_pedestal" }
+					type: "item"
+				}
+				{
+					id: "19176EA0F8660FEB"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+			]
+			title: "&4&lРитуал воронки Душ"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"34D0AE21CF17DF7D"
+				"57202696B7493B70"
+			]
+			description: [
+				"Мощный меч"
+				""
+				"Имеет активную способность (шифт+лев.alt):"
+				"- Выпускает 5 самонаводящихся лучей, которые наносят урон мобам"
+			]
+			id: "1DD527A15823C3FF"
+			rewards: [
+				{
+					id: "43D90886963D974C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "30D9B5B61754E022"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "057CE7837D1EBD28"
+				item: {
+					Count: 1b
+					id: "conjuring:soul_alloy_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Меч из сплава душ"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"34D0AE21CF17DF7D"
+				"57202696B7493B70"
+			]
+			description: [
+				"Крутая кирка."
+				""
+				""
+				"Имеет активную способность (шифт+лев.alt):"
+				"- Выпускает луч, который вскапывает кладку ванильных руд"
+			]
+			id: "36AFEB22FE1CDBF3"
+			rewards: [
+				{
+					id: "3F1F99AF4A107B61"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4FA6EBF06D95226D"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E424002865FFF66"
+				item: {
+					Count: 1b
+					id: "conjuring:soul_alloy_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Кирка из сплава душ"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"34D0AE21CF17DF7D"
+				"57202696B7493B70"
+			]
+			description: [
+				"Хороший топор"
+				""
+				""
+				"Имеет активную способность (шифт+лев.alt):"
+				"- Выпускает луч, который срубает дерево"
+			]
+			id: "00940ABD6DD3EB74"
+			rewards: [
+				{
+					id: "2260F555BD3EB831"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "561F6577B21985E3"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67A75915FE3A2B2F"
+				item: {
+					Count: 1b
+					id: "conjuring:soul_alloy_hatchet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Топор из сплава душ"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"34D0AE21CF17DF7D"
+				"57202696B7493B70"
+			]
+			description: [
+				"Отличная лопата."
+				""
+				""
+				"Имеет активную способность (шифт+лев.alt):"
+				"- Собирает все неподобранные предметы в кучу и доставляет к владельцу"
+			]
+			id: "30B5CF757CFE3190"
+			rewards: [
+				{
+					id: "4533211847803820"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "736A8B21324EAAD3"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "50CB723D0B75ACE4"
+				item: {
+					Count: 1b
+					id: "conjuring:soul_alloy_shovel"
+					tag: {
+						CurrentProjectile: [I;
+							475856956
+							1694189267
+							-1313990209
+							2047608759
+						]
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Лопата из сплава душ"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"34D0AE21CF17DF7D"
+				"57202696B7493B70"
+			]
+			description: [
+				"Расположите предметы как на скрине крафта, чтобы получить нужное Вам улучшение"
+				""
+				"Чтобы добавить улучшение к инструменту, нужно расположить инструмент посередине &aмастерской&r, а по бокам нужные улучшения."
+				""
+				"&o&8Для активации нажмите по блоку ШИФТ+ПКМ"
+			]
+			id: "08F96FF7F9A501AE"
+			rewards: [
+				{
+					id: "365F32017BFD8983"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "0D2DB2B8F3095F4E"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4670679701D6D5F8"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "784AAFFECF648EEE"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1928D5F051F9000F"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "39EADD316101384E"
+				item: "conjuring:gem_tinkerer"
+				type: "item"
+			}]
+			title: "&6Улучшение инструментов из сплава душ"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08F96FF7F9A501AE"]
+			description: [
+				"&l&aУскоряет инструменты"
+				""
+				"{image:ftbquests:block/zeleniy width:100 height:100 align:1}"
+			]
+			id: "2E1E6CA8A90A7376"
+			rewards: [{
+				id: "349809EC0DEB4025"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "078BAD4BA9A2BBC4"
+				item: "conjuring:haste_gem"
+				type: "item"
+			}]
+			title: "&aУскорь"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["08F96FF7F9A501AE"]
+			description: [
+				"&l&1Делает инструменты прочнее, а на мече игнорирует некоторое количество брони при ударе"
+				""
+				"{image:ftbquests:block/ciniy width:100 height:100 align:1}"
+			]
+			id: "30D7864819FB2462"
+			rewards: [{
+				id: "7A5FC33312437DAB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "7D7B537E1DA65CD7"
+				item: "conjuring:ignorance_gem"
+				type: "item"
+			}]
+			title: "&1Сделай прочнее"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["08F96FF7F9A501AE"]
+			description: [
+				"&4&lЭквивалент Добычи/Удачи"
+				""
+				"{image:ftbquests:block/krasniy width:100 height:100 align:1}"
+			]
+			id: "413119EADB82BEA9"
+			rewards: [{
+				id: "0524EECFBE3C2A6E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "6E39F66206B9B184"
+				item: "conjuring:abundance_gem"
+				type: "item"
+			}]
+			title: "&4Больше Лута"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["08F96FF7F9A501AE"]
+			description: [
+				"&l&2Увеличивает радиус действия способностей"
+				""
+				"{image:ftbquests:block/range width:100 height:100 align:1}"
+			]
+			id: "258DD946EA00C1E3"
+			rewards: [{
+				id: "3D7178052871FFE8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "12BD509ECCCF4276"
+				item: "conjuring:scope_gem"
+				type: "item"
+			}]
+			title: "&2Больший радиус"
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7F1AB391AF2E32EB"]
+			description: [
+				"Делается из 8 сплавов душ и эссенции призыва по середине."
+				""
+				"Для его активации требуется &b&lФокус с заключенным в него мобом&r."
+				""
+				"&o&8Делается также в кузнице. Для взаимодействия нажмите ПКМ Вашим посохом"
+			]
+			id: "7CF03209077A33EF"
+			rewards: [
+				{
+					id: "0CFFBF26FDB3346B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "2340D0D2F696368D"
+					item: "conjuring:soul_alloy"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "591C6C2474759687"
+				item: "conjuring:conjurer"
+				type: "item"
+			}]
+			title: "&4&lСпавнер"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7F1AB391AF2E32EB"]
+			description: ["Нужен для заточения души в &4&lконжурер&r."]
+			id: "13D284E74F955936"
+			rewards: [
+				{
+					id: "650E8E50941F25BD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3D62BA2A849BE676"
+					item: {
+						Count: 1b
+						id: "conjuring:conjuring_focus"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "133ED81A74750D2A"
+				item: {
+					Count: 1b
+					id: "conjuring:conjuring_focus"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"1E59C2CC879BBE4B"
+				"13D284E74F955936"
+				"7CF03209077A33EF"
+			]
+			description: [
+				"Поместите &b&lфокус&r в &4&lворонку душ&r, после чего загоните нужного вам моба на эту воронку.*"
+				""
+				"После, нужно расположить &e&lвсе предметы, которые падают с моба&r на алтари и начать ритуал, нажав ПКМ Вашим посохом.**"
+				""
+				"&8&o*нужно как-то запереть моба, чтобы он не смог сбежать с воронки."
+				"&8&o**Если предметов с моба падает меньше, чем количество алтарей, то можете повторять предметы, которые вы уже расположили."
+			]
+			id: "0C4F5E4D725E4F36"
+			rewards: [
+				{
+					id: "758A23BD595DF986"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "0CA9D623EF8E9C51"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "4619391520E59CEF"
+				title: "&e&lКак спавнить мобов?"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+	]
+	title: "&4&lConjuring"
+}

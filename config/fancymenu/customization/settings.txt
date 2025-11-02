@@ -1,0 +1,116 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = options_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1709922052965
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:8c666175-0897-4334-a6b9-e722f97e2034-1709922052965] = [groups:][instances:]
+}
+
+menu_background {
+  image_path = [source:local]menu/setting.png
+  slide = false
+  repeat_texture = false
+  background_type = image
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  orientation = bottom-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Сборка сделана игроком: moqen%n%
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -100
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = ce300fe9-3256-45ba-ad21-eaa10aecfc1e1695386754846
+  y = -32
+  alignment = left
+  height = 40
+  element_type = fancymenu_customization_item_text
+}
+
+element {
+  button_element_executable_block_identifier = 5aa15079-8d2b-4976-96c7-a9dd518e4b5e-1709922052965
+  [executable_action_instance:47748b56-0e6b-4eb3-a393-072f75e5dd4a-1709922052965][action_type:openlink] = https://discord.gg/ZdbQVuqvNN
+  [executable_block:5aa15079-8d2b-4976-96c7-a9dd518e4b5e-1709922052965][type:generic] = [executables:47748b56-0e6b-4eb3-a393-072f75e5dd4a-1709922052965;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Сообщить о баге автору 
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 235ddaea-ea87-4555-acdb-2b8bbacdbab41695410961367
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = bottom-left
+  x = 6
+  y = -30
+  width = 140
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = e59923d6-d72f-4c85-8e43-1acb7b997ae9-1709922052965
+  [loading_requirement_container_meta:e59923d6-d72f-4c85-8e43-1acb7b997ae9-1709922052965] = [groups:][instances:]
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = a5691853-1284-4860-94a9-131617034192-1709922052965
+  [executable_block:a5691853-1284-4860-94a9-131617034192-1709922052965][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 9755
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 084a35e6-9960-4736-a4cb-8df94b62e1d2-1709922052965
+  [loading_requirement_container_meta:084a35e6-9960-4736-a4cb-8df94b62e1d2-1709922052965] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+

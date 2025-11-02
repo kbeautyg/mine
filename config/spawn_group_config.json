@@ -1,0 +1,17 @@
+{
+  "monsterGroupCap": 45,
+  "creatureGroupCap": 30,
+  "ambientGroupCap": 12,
+  "axolotlsGroupCap": 3,
+  "underground_water_creatureGroupCap": 2,
+  "water_creatureGroupCap": 5,
+  "water_ambientGroupCap": 5,
+  "ha_fishGroupCap": 5,
+  "ha_fish_undergroundGroupCap": 3,
+  "ha_jellyGroupCap": 3,
+  "ha_sharkGroupCap": 3,
+  "ha_critterGroupCap": 4,
+  "butterflySpawnWeight": 5,
+  "SunkenSkeleton": 5,
+  "debug": false
+}

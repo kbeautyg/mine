@@ -1,0 +1,525 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "316EA290AF4EFAB8"
+	group: "28A047DAEA79CB0D"
+	icon: "minecraft:chest"
+	id: "316EA290AF4EFAB8"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ironchests:item/gold_chest_upgrade"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ironchests:item/copper_chest_upgrade"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ironchests:item/iron_chest_upgrade"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ironchests:item/diamond_chest_upgrade"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "ironchests:item/lock"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/fire_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: -0.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Сделайте сундук"]
+			icon: "minecraft:chest"
+			id: "49DC114C5F70AE96"
+			rewards: [
+				{
+					id: "61F0A96905275C6B"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "6089B3AAFF6A6242"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				icon: "minecraft:chest"
+				id: "17ACD713EEB62279"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:chest"
+					}
+				}
+				title: "Сундук"
+				type: "item"
+			}]
+			title: "&6Базовое хранилище"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"49904B0C5C3D415E"
+				"27ABFDD84F529778"
+			]
+			description: ["Чуть более вместительный"]
+			id: "22AB7AB4EEC375FD"
+			rewards: [
+				{
+					count: 4
+					id: "73ABCB9C8C3D6340"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "1384BCC16E1E4A9A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "5AB2AECD99DDE2B8"
+				item: "ironchests:iron_chest"
+				type: "item"
+			}]
+			title: "&7Железный сундук"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"22AB7AB4EEC375FD"
+				"03943BFB8B47FB41"
+			]
+			description: ["Имеет внушительный инвентарь"]
+			id: "6A00E322CDFBFD10"
+			rewards: [
+				{
+					count: 4
+					id: "640D2DE9862ED6E3"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "2035FE50D3AC33E2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "50477F957FF701C4"
+				item: "ironchests:gold_chest"
+				type: "item"
+			}]
+			title: "&eЗолотой сундук"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6A00E322CDFBFD10"
+				"597261F6FCA900BB"
+			]
+			description: ["Имеет огромный инвентарь "]
+			id: "3A031C5C0D616F70"
+			rewards: [
+				{
+					count: 4
+					id: "6D47B1D8DE6C786E"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "731E980BEFE04317"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "574DA41FFE401DB0"
+				item: "ironchests:diamond_chest"
+				type: "item"
+			}]
+			title: "&bАлмазный сундук"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3A031C5C0D616F70"
+				"75FB38F910AAF239"
+			]
+			description: ["Имеет громадный инвентарь"]
+			id: "6B47224C15A782FE"
+			rewards: [
+				{
+					count: 4
+					id: "44A4E8923DB65F45"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "7CA11B8597E592E7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "4F15FADB5D7E513E"
+				item: "ironchests:obsidian_chest"
+				type: "item"
+			}]
+			title: "&8&lОбсидиановый сундук"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3A031C5C0D616F70"]
+			description: ["Имеет громадный инвентарь,но не умеет хранить тайны)"]
+			id: "72439D47653385A8"
+			rewards: [
+				{
+					count: 4
+					id: "0ABC7B9403512C8D"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "514084F67044A24A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "75463A6F86D2B81E"
+				item: "ironchests:crystal_chest"
+				type: "item"
+			}]
+			title: "&dКристальный сундук"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["49DC114C5F70AE96"]
+			description: [
+				"Очень удобный и многофункциональный предмет"
+				""
+				""
+				"Нажмите &7&nПКМ&r чтобы открыть интерфейс."
+				""
+				"Можно надеть рюкзак с помощью кнопки в левом &7&nнижнем углу gui&r"
+				""
+				"Нажмите кнопку &7&n\"V\"(по умолчанию)&r чтобы открыть интерфейс надетого рюкзака"
+				""
+				"Рюкзак можно снять с помощью кнопки &7&nв левом нижнем углу gui&r, где была кнопка надеть рюкзак"
+				""
+				""
+				"&cВ рюкзаке со способностями (в рюкзаках которые дают эффекты) слева включение эффектов"
+				"&cПо умолчанию там &eвыкл "
+			]
+			disable_toast: true
+			id: "6CB7172BD3B8D4CE"
+			rewards: [
+				{
+					count: 4
+					id: "125E8F550D0ADECA"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					id: "1E4AC2763487FC87"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Очень удобный способ расширить свой инвентарь"
+			tasks: [{
+				id: "6D946373B24F3A08"
+				item: {
+					Count: 1b
+					id: "travelersbackpack:standard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Переносной сундук"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6CB7172BD3B8D4CE"]
+			description: [
+				"Вы можете улучшить свой рюкзак, добавив к нему &6кожу&r и соответствующее улучшение на &a&lстоле кузнеца"
+				"&r"
+				"Рюкзак можно улучшить лишь на ранг выше(&6 Кожа -> &7Железо -> &eЗолото -> &bАлмазы -> &8Незерит&r)"
+			]
+			id: "643839ACA837E2E2"
+			rewards: [
+				{
+					count: 3
+					id: "79058FC55427ADD7"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "3EF6740696AC19AF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "4A10F4DA70DBAEA1"
+					item: "travelersbackpack:blank_upgrade"
+					type: "item"
+				}
+				{
+					id: "056AE087824C9EDA"
+					item: "travelersbackpack:iron_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "5674560647C1D632"
+					item: "travelersbackpack:gold_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "437CE43F94A51ABD"
+					item: "travelersbackpack:diamond_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "3EF256C65D725A79"
+					item: "travelersbackpack:netherite_tier_upgrade"
+					type: "item"
+				}
+			]
+			title: "&f&lБольше места!"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"390EFA8981CBDA7E"
+				"49DC114C5F70AE96"
+			]
+			description: [
+				"Переносной сундук."
+				""
+				"&8&oМожет быть улучшен так же,как и обычный сундук"
+			]
+			id: "123DCF1695E97027"
+			rewards: [
+				{
+					count: 2
+					id: "48DC6975DB3296D6"
+					item: "minecraft:shulker_shell"
+					type: "item"
+				}
+				{
+					id: "0F71D9937B953606"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "71EF53A7B0BF0586"
+				item: "minecraft:shulker_box"
+				type: "item"
+			}]
+			title: "&5Ящик Шалкера"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1B1E9F217D891082"]
+			description: ["ОГРОМНЫЙ сундук, который может поместить в одном слоте &n&4512&r предметов"]
+			id: "4E0D8C70A7F3049E"
+			rewards: [
+				{
+					id: "004A5E8A8ADEEE45"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "4E2C64125CC71350"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "4BE1F5CE459C8809"
+				item: "netherchested:nether_chest"
+				type: "item"
+			}]
+			title: "&4&lАдский сундук"
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49DC114C5F70AE96"]
+			description: [
+				"Сундук, который не требует пространства для открытия."
+				""
+				"&8&oМожет быть улучшен по аналогии с сундуком"
+			]
+			id: "31A82203B46F9531"
+			rewards: [
+				{
+					count: 8
+					id: "0CA767C5B5347BDA"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					id: "78629510C7E7A9A9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "7BACE06E8A47FD52"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			title: "&6Бочка"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"49DC114C5F70AE96"
+				"6F669CD3F350D56A"
+			]
+			id: "49904B0C5C3D415E"
+			rewards: [
+				{
+					count: 4
+					id: "12FB133A29B74581"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "1435B0D91A0429C4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "3FF4849E329911AF"
+				item: "ironchests:copper_chest"
+				type: "item"
+			}]
+			title: "&6Медный сундук"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			description: ["Нужна для транспортировки &6Ваших сундуков&r. Имеет &bалмазный&r вариант."]
+			id: "30504364B1C89975"
+			rewards: [{
+				id: "3D5CE5C3DD81B7A8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "613124B8D2EE1C46"
+				item: {
+					Count: 1b
+					id: "ironchests:iron_dolly"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3A031C5C0D616F70"]
+			id: "0097A5DD4D64BAEB"
+			rewards: [
+				{
+					count: 2
+					id: "3BE15C623ECB1325"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "7D2B0BDF033752C2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "550E722FC00A71CB"
+				item: "ironchests:netherite_chest"
+				type: "item"
+			}]
+			title: "&cНезеритовый сундук"
+			x: 7.5d
+			y: 0.0d
+		}
+	]
+	title: "&l&6Хранилища"
+}

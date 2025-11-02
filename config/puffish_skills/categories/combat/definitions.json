@@ -1,0 +1,1301 @@
+{
+	"start": {
+		"title": "Система прокачки персонажа",
+		"description": "    Добро пожаловать во вкладку прокачки!\nНа ваш выбор представлено 3 класса, которые в свою очередь расходятся на уникальные подклассы\nНо, к сожалению, играть соло с ними будет проблематично\nПоэтому мы добавили 4ый класс - универсал \nПриятного геймплея и хорошего настроения!\nmade for Arcania\n",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "end_crystal"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		
+		"metadata": {
+			"icon": "1d86k2n789wz7qk6"
+		}
+	},
+	"root_thief": {
+		"title": "Универсал",
+		"description": "+10% скорости\n+20% высота прыжка\n+5% урон от оружия ближнего боя\n+10% урон от оружия дальнего боя \n+0,25 удачи\n-3 сердечка\n-2 брони\n",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "end_crystal"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": -6,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": -2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.jump",
+					"value": 0.2,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "projectile_damage:generic",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "0wz1cvqk5dl8qdc0"
+		}
+	},
+	"root_paladin": {
+		"title": "Паладин",
+		"description": "+2 сердечка\n+5% сопротивления\n+2 брони навсегда\n-10% скорость атаки\n-5% скорости\n-35% урон от оружия дальнего боя",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "shield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": -0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "projectile_damage:generic",
+					"value": -0.35,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": -0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1b3dcc33uibqqop4"
+		}
+	},
+	"root_warrior": {
+		"title": "Воин",
+		"description": "+15% урон от оружия ближнего боя\n+1% скорости\n+10% скорости атаки\n-35% урон от оружия дальнего боя",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "netherite_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "projectile_damage:generic",
+					"value": -0.35,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "q6y5dl0ndew3t96o"
+		}
+	},
+	"root_range": {
+		"title": "Лучник",
+		"description": "+20% урон от оружия дальнего боя\n+3% скорости\n-2 сердечка\n-40% урон от оружия ближнего боя",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "projectile_damage:generic",
+					"value": 0.2,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": -4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": -0.4,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s minecraft:arrow 128"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "3clnsajar2wjhd83"
+		}
+	},
+	"health+2": {
+		"title": "+1 сердечко",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "rkjbzef9qgmq8j6f"
+		}
+	},
+	"resistance+3%": {
+		"title": "+3% сопротивления",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ffkdpr2e3iww80fv"
+		}
+	},
+	"melee_damage+3%": {
+		"title": "+3% урона в ближнем бою",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "rr5wgh88ez2i192p"
+		}
+	},
+	"ranged_damage+3%": {
+		"title": "+3% урона в дальнем бою",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "u18f92ywvrvs3haz"
+		}
+	},
+	"attack_speed+3%": {
+		"title": "+3% скорость атаки",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "b7nm4tyr1atrsqwn"
+		}
+	},
+	"movement_speed+3%": {
+		"title": "+3% скорости",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "pec1zl91tui78h2p"
+		}
+	},
+	"luck+0.25": {
+		"title": "+0.25 удачи",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "luck"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "q7bjmhgynmo1lfcq"
+		}
+	},
+	"stamina+5%": {
+		"title": "+5% стамина",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1etikn2vg6cuf3yt"
+		}
+	},
+	"healing+5%": {
+		"title": "+5% регенерация",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "regeneration"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.healing",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "v4ugbh3bgwje6f4q"
+		}
+	},
+	"jump+5%": {
+		"title": "+5% высота прыжка",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.jump",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "684q3qa489od1qkf"
+		}
+	},
+	"armor+1": {
+		"title": "+1 броня",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_ingot"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "8wy4ywvy8qt7729d"
+		}
+	},
+	"warrior_1_ez": {
+		"title": "Облегченный",
+		"description": "+15% скорость атаки\n+5% высота прыжка\n+5%скорость\n-5% урон в ближнем бою\n-1 защита",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "stone_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.jump",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": -0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": -1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "9dnqgjyi5rvnkc62"
+		}
+	},
+	"warrior_1": {
+		"title": "Истинный",
+		"description": "+10% урон в ближнем бою\n+10% сопротивление\n-1 сердечко",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": -2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "s4d7t7mlzydzm9su"
+		}
+	},
+	"warrior_1_hard": {
+		"title": "Уплотненный",
+		"description": "+1 защита\n+14% сопротивление\n-10% скорость атаки",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_axe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.14,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": -0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1c1rtw3fnluo7cu2"
+		}
+	},
+	"warrior_2_ez": {
+		"title": "Легкий воин",
+		"description": "+16% скорость атаки\n+5% высота прыжка\n+10%скорость\n+2 сердечка\n+0,5 удачи\n-28% урон в ближнем бою\n-2 защита",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.jump",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.16,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": -0.28,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": -2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1wqs8burr8fuxu3k"
+		}
+	},
+	"warrior_2": {
+		"title": "Берсерк",
+		"description": "+20% урон в ближнем бою\n+10% скорость атаки\n+14% скорость\n-1 защита\n-2 сердечка",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": -1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.14,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.2,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": -4,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "4xqei58ceg7ik8wd"
+		}
+	},
+	"warrior_2_hard": {
+		"title": "Бронированный воин",
+		"description": "+1 защита\n+15% сопротивление\n+4 сердечка\n-30% скорость атаки",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_axe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 8,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": -0.3,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "wg99be6cin0v02sb"
+		}
+	},
+	"range": {
+		"title": "Оправданная жертва",
+		"description": "+10% урона в дальнем бою\n+10% скорость\n+10% прыжок\n-1 сердечко\n",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "projectile_damage:generic",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": -2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.jump",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "47wsyvaleg4ts8ex"
+		}
+	},
+	"range_mix": {
+		"title": "Универсальный боец",
+		"description": "+10% урона в дальнем бою\n+30% урона в ближнем бою\n+1 сердечко\n",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "projectile_damage:generic",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.3,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "x96ycbb13isqypgw"
+		}
+	},
+	"range_1": {
+		"title": "Мастер лука",
+		"description": "+30% урона в дальнем бою\n+5% скорости\n+5% к высоте прыжка\n-30% урона в ближнем бою",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "projectile_damage:generic",
+					"value": 0.3,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.jump",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": -0.3,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "yhn4ojocdc6fv54u"
+		}
+	},
+	"range_master_of_all": {
+		"title": "Мастер оружия",
+		"description": "+30% урона в дальнем бою\n+30% урона в ближнем бою\n+5% к высоте прыжка\n+5% скорости\n+10% сопротивления",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "projectile_damage:generic",
+					"value": 0.3,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.jump",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.3,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "4jqn2bswdmtzkvzy"
+		}
+	},
+	"range_master": {
+		"title": "Истинный лучник",
+		"description": "+50% урона в дальнем бою\n+15% скорости\n+10% к высоте прыжка\n-2 сердечка\n-3 брони",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "projectile_damage:generic",
+					"value": 0.3,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.jump",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": -3,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": -4,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "k3o85i26w0tf8tqd"
+		}
+	},
+	"range_glass": {
+		"title": "Стеклянная пушка",
+		"description": "+120% урона в дальнем бою\n+30% скорости\n+20% к высоте прыжка\n+0,25 удачи\n-5 сердечка\n-6 брони",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "glass"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "projectile_damage:generic",
+					"value": 1.2,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.3,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.jump",
+					"value": 0.2,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": -6,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": -10,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "46c9wvl92hanjr53"
+		}
+	},
+	"paladin_up": {
+		"title": "Доп. бронирование",
+		"description": "+1 защита\n+2 сердечка\n+10% сопротивления\n-5% скорости\n-10% скорость атаки",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "netherite_scrap"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": -0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": -0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f420fp9vltcz2ryf"
+		}
+	},
+	"paladin_high": {
+		"title": "Тяжелая броня",
+		"description": "+3 защита\n+2 сердечка\n+15% сопротивления\n-5% скорости\n-30% скорость атаки",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "netherite_ingot"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": -0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": -0.3,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "k0p70zk7pamnw1w4"
+		}
+	},
+	"paladin_light": {
+		"title": "Легкие соединения",
+		"description": "+2 сердечка\n+19% скорости\n+10% сопротивления\n",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "scute"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.19,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "d7wrz2bkwwjq5xdr"
+		}
+	}
+}

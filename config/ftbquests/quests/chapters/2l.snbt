@@ -1,0 +1,647 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2l"
+	group: "7B731D9853D1E8C6"
+	icon: "minecraft:saddle"
+	id: "7F25A213F8AF566E"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "mythicmounts:textures/gui/book/mythicmounts_book.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "mythicmounts:item/mythical_mounts"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.75d
+			hover: [ ]
+			image: "minecraft:entity/enderdragon/dragon_fireball"
+			rotation: 0.0d
+			width: 1.75d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "icarus:item/feathered_wings"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/red_mushroom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 1.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/mob_effect/water_breathing.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "minecells:textures/mob_effect/frozen.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mcda:item/wolf_armor_helmet"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/soul_fire_0"
+			rotation: 180.0d
+			width: 1.0d
+			x: 2.0d
+			y: -1.5d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"В этой вкладке Вы будете ознакомлены с модов Mythic Mounts."
+				""
+				"С модом, который добавляет &e&lновых питомцев&r."
+				"Но будьте осторожны! Не каждый из них будет к вам дружелюбен"
+				""
+				"&eПосох призыва&r: Может использоваться для телепортации питомцев на короткое расстояние. Привяжите питомца, используя посох, и призовите его, используя посох снова. "
+				""
+				"&7&oПроцесс приручения точно такой же как у лошади, садитесь на животное пока оно не перестанет сбрасывать вас, а для управления наденьте на него седло, броня кладется в слот животного после нажатия Shift + ПКМ по нему."
+			]
+			icon: "mythicmounts:firebird_feather"
+			id: "707887E76D87C0B8"
+			rewards: [{
+				id: "7D582544094B0DAA"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "60CF7AB17BEE19A0"
+					title: "&2&lМифические создания"
+					type: "checkmark"
+				}
+				{
+					id: "062921A8E14AF8A2"
+					item: "mythicmounts:summoning_staff"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Обитает под землей в больших пещерах на глубине ниже 40 блоков."
+				""
+				"&cВраждебный&r."
+				""
+				"Питается золотыми яблоками, золотой морковкой и золотым арбузом."
+			]
+			id: "7769136F4B14488E"
+			rewards: [
+				{
+					id: "65895925039C4BF9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "4584A1E931EB2F77"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:dragon_head"
+				id: "7DBCF44C4DDA0A77"
+				observe_type: 5
+				timer: 0L
+				title: "найти &c&lДракона"
+				to_observe: "mythicmounts:dragon"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Обитает в биомах тайги."
+				""
+				"&aНе враждебный&r, нападает на овец и скелетов."
+				""
+				"Питается кроликами, курицей, говядиной, свининой, бараниной."
+			]
+			id: "7291084237C4144C"
+			rewards: [
+				{
+					id: "1F5CB2AABF4B461B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "3921BF53CAF03C85"
+					item: "minecraft:mutton"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:bone"
+				id: "413D2657BEE43132"
+				observe_type: 5
+				timer: 0L
+				title: "Найти &f&lУжасного волка"
+				to_observe: "mythicmounts:direwolf"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Обитает во всех биомах джунглей."
+				""
+				"&aНе враждебный&r, убегает от Вас."
+				""
+				"Питается сладкими ягодами и дольками арбуза."
+			]
+			id: "3C1EC899DE35D599"
+			rewards: [
+				{
+					id: "47E06F6618F86269"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "4B0B724C52BEA596"
+					item: "minecraft:melon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:feather"
+				id: "7AE5EDB69BE87B15"
+				observe_type: 5
+				timer: 0L
+				title: "Найти &6&lПочтовую птицу"
+				to_observe: "mythicmounts:courierbird"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Обитает в равнине, заснеженной тайге, аснеженных таежных холмах, заснеженных таежных горах."
+				""
+				"&aНе враждебный&r."
+				""
+				"Питается бараниной и лососем."
+			]
+			id: "5EC10C93523C061E"
+			rewards: [
+				{
+					id: "4AB55717D90D4E41"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "3029E60AC99CDA61"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:white_wool"
+				id: "2987AC9D861DBF9C"
+				observe_type: 5
+				timer: 0L
+				title: "Найти &f&lАценцию"
+				to_observe: "mythicmounts:acencia"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Обитает в глубоком теплом океане."
+				""
+				"&aНе враждебный&r."
+				""
+				"Питается тропической рыбой и иглобрюхом."
+			]
+			id: "254D17DA00E93EB1"
+			rewards: [
+				{
+					id: "374EE1E51AB815A1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "17BE057C0DDAD996"
+					item: "minecraft:pufferfish"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:scute"
+				id: "07C8ECAC403FCC88"
+				observe_type: 5
+				timer: 0L
+				title: "Найти &a&lАрхелона"
+				to_observe: "mythicmounts:archelon"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Обитает на грибном острове."
+				""
+				"&aНе враждебный&r."
+				""
+				"Питается грибами, цветками  и сахаром"
+			]
+			id: "379E461E09078585"
+			rewards: [
+				{
+					id: "0E01A4079DA39CFC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 3
+					id: "0A1EB8CD7743D338"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:red_mushroom_block"
+				id: "4AC1D3DC6B88982A"
+				observe_type: 5
+				timer: 0L
+				title: "Найти &c&lКолелистрон"
+				to_observe: "mythicmounts:colelytra"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Обитает близь деревень."
+				""
+				"&aНе враждебный&r."
+				""
+				"Питается золотыми яблоками"
+			]
+			id: "12D2EBEBFE73F718"
+			rewards: [
+				{
+					id: "54AD3E2CBDE435C9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "52F67880BE87DCB1"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:blaze_powder"
+				id: "1AE89FD78EBBFF74"
+				observe_type: 5
+				timer: 0L
+				title: "Найти &6&lОгнептицу"
+				to_observe: "mythicmounts:firebird"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Обитают в больших пещерах рядом с поверхностью в биомах гор."
+				""
+				"&aНе враждебный&r."
+				""
+				"Питается арбузом, тыквой, блоком сена."
+			]
+			id: "3012DAD80A3996AE"
+			rewards: [
+				{
+					id: "7BE8E0616C00A4C5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "71572360C853691C"
+					item: "minecraft:melon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:melon_slice"
+				id: "67BCED34909E1E54"
+				observe_type: 5
+				timer: 0L
+				title: "найти &2&lГигантскую Гиккотоа"
+				to_observe: "mythicmounts:geckotoalizard"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Обитают в биомах гор."
+				""
+				"&aНе враждебный&r."
+				""
+				"Питаются кроликами и бараниной."
+			]
+			icon: "minecraft:snow_block"
+			id: "0B609990D2829621"
+			rewards: [
+				{
+					id: "553B7CD4D0AACCD4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "07D1F477ED0BBBB2"
+					item: "minecraft:rabbit"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:feather"
+				id: "5C626932EFDC3DB5"
+				observe_type: 5
+				timer: 0L
+				title: "Найти &f&lГрифона"
+				to_observe: "mythicmounts:griffon"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Обитает в биоме темного леса."
+				""
+				"&aНе враждебный&r."
+				""
+				"Питается сахаром, дольками арбуза."
+			]
+			id: "5FCBFF51CAC19D07"
+			rewards: [
+				{
+					id: "03241C1CADF01AEF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "1B446FB4D5ABDBF5"
+					item: "minecraft:melon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:leather_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "72F9455534698119"
+				observe_type: 5
+				timer: 0L
+				title: "Найти &7&lГигантскую моль"
+				to_observe: "mythicmounts:moth"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Обитает в искаженном и багровом лесу(ад)."
+				""
+				"&cВраждебный&r."
+				""
+				"Питается яблоками, свининой и гнилой плотью."
+			]
+			id: "30A0D2797A0582AC"
+			rewards: [
+				{
+					id: "1DB30F8FFA493617"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "0492CC81606D428C"
+					item: "minecraft:apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:crimson_fungus"
+				id: "1CF7C63F417AAA41"
+				observe_type: 5
+				timer: 0L
+				title: "Найти &c&lНезерского летучего мыша"
+				to_observe: "mythicmounts:netherbat"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Обитает в долине душ и в базальтовых дельтах(ад)"
+				""
+				"&cВраждебный&r."
+				""
+				"Питается огненными стержнями и огненными зарядами"
+			]
+			id: "2F3152FDBA9B7F97"
+			rewards: [
+				{
+					id: "56152F643F5F6DF7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "2D188657F8F3C344"
+					item: "minecraft:fire_charge"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "soulsweapons:lost_soul"
+				id: "13A8EA6B386410B9"
+				observe_type: 5
+				timer: 0L
+				title: "Найти &b&lКошмар"
+				to_observe: "mythicmounts:nightmare"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Обитает близь коралловых рифов в теплом океане."
+				""
+				"&aНе враждебный&r."
+				""
+				"Питается морской травой"
+			]
+			id: "3402AABF60B3BDAE"
+			rewards: [
+				{
+					id: "1BB1D3F8D4E9B0A3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 4
+					id: "1743B611DC36B95C"
+					item: "minecraft:seagrass"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:horn_coral_block"
+				id: "527DA6CA334A48BC"
+				observe_type: 5
+				timer: 0L
+				title: "найти &e&lГигантскую нудибранхию"
+				to_observe: "mythicmounts:nudibranch"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Обитает в засушлевых биомах."
+				""
+				"&cВраждебный&r."
+				""
+				"Питается крольчатиной, курицей, тыквой и гнилой плотью"
+			]
+			id: "72969BD3CDF75DEC"
+			rewards: [
+				{
+					id: "5A3BB29FC88BA53B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "03C9726D56DA094D"
+					item: "minecraft:chicken"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:sandstone"
+				id: "6FA01B43F0456EDF"
+				observe_type: 5
+				timer: 0L
+				title: "найти &e&lЕздовую ящерицу"
+				to_observe: "mythicmounts:ridinglizard"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+	]
+	title: "&2&lМифические создания"
+}

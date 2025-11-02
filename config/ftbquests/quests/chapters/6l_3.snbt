@@ -1,0 +1,1044 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6l_3"
+	group: "28A047DAEA79CB0D"
+	icon: "beachparty:palm_sapling"
+	id: "3843F5B4E0671C62"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/snowball"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/snowball"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/snowball"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/snowball"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/snowball"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/snowball"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/snowball"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "minecells:textures/mob_effect/frozen.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "minecells:textures/mob_effect/frozen.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "minecells:textures/mob_effect/frozen.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "minecells:textures/mob_effect/frozen.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/snowball"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/snowball"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "minecells:textures/mob_effect/frozen.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "minecells:textures/mob_effect/frozen.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "minecells:textures/mob_effect/frozen.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "minecells:textures/mob_effect/frozen.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "minecells:textures/mob_effect/frozen.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "minecells:textures/mob_effect/frozen.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "minecells:textures/mob_effect/frozen.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "minecells:textures/mob_effect/frozen.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "minecells:textures/mob_effect/frozen.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "beachparty:item/beach_umbrella"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "beachparty:item/palm_sapling"
+			rotation: -30.0d
+			width: 1.0d
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "beachparty:block/beach_grass"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "beachparty:item/palm_sapling"
+			rotation: 20.0d
+			width: 1.0d
+			x: 0.5d
+			y: -0.75d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Новое дерево. Является ключевым для этого мода."]
+			id: "02BBFF1C8BF08E74"
+			rewards: [{
+				id: "62B97F8BEFEE6E80"
+				item: "beachparty:palm_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "1B2BBE16858C6DDE"
+				item: "beachparty:palm_log"
+				type: "item"
+			}]
+			title: "&6&lПальма"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02BBFF1C8BF08E74"]
+			description: ["Главный материал мода. Нужен для декораций и функциональных блоков"]
+			id: "1A8774D48D140DA2"
+			rewards: [
+				{
+					count: 4
+					id: "796796FB6A7DCDD1"
+					item: "beachparty:palm_planks"
+					type: "item"
+				}
+				{
+					id: "3886196669B8AE9E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "67CBBC2E54C46958"
+				item: "beachparty:palm_planks"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A8774D48D140DA2"]
+			description: ["Небольшой атмосферный сундук."]
+			id: "155B6E2611A429D9"
+			rewards: [{
+				count: 4
+				id: "61B86C5BB627FB7A"
+				item: "beachparty:palm_planks"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CC2A04CC0BC515A"
+				item: "beachparty:cabinet"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1A8774D48D140DA2"]
+			description: [
+				"Блок, позволяющий делать коктейли с эффектами."
+				""
+				"&o&8Запаситесь &bльдом&8!"
+			]
+			id: "27336B83E07CA282"
+			rewards: [
+				{
+					count: 4
+					id: "64E5010F96866126"
+					item: "minecraft:ice"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0CED40B0256ED668"
+					item: "minecraft:snowball"
+					type: "item"
+				}
+				{
+					id: "7693C46BF253C651"
+					item: "minecraft:tropical_fish_bucket"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6422F4E5E3FB1730"
+				item: "beachparty:tiki_bar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["02BBFF1C8BF08E74"]
+			description: ["Отойдите от твердого блока, чтобы кинуть кокос в него на ПКМ"]
+			id: "16626D2318B8AC53"
+			rewards: [{
+				count: 2
+				id: "6F3FE1D4921B1C33"
+				item: "beachparty:coconut_open"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F3F9A66ED0F6451"
+				item: "beachparty:coconut"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Блок, позволяющий делать различное мороженное."
+				""
+				"&o&8Запаситесь &bльдом&8!"
+			]
+			id: "6D127E09118A5766"
+			rewards: [
+				{
+					count: 4
+					id: "4F9191F3C9962D35"
+					item: "minecraft:ice"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2DD958708D3757F3"
+					item: "minecraft:snowball"
+					type: "item"
+				}
+				{
+					id: "0EEC79D8D566FFF9"
+					item: "minecraft:powder_snow_bucket"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5FF323B2A8B04736"
+				item: "beachparty:mini_fridge"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			description: ["Попробуйте сломать его."]
+			id: "71F7A7DB7711F25D"
+			rewards: [{
+				id: "2C79560DA1D783D3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				icon: "beachparty:sand_dirty"
+				id: "19A6F93AE336851A"
+				observe_type: 0
+				timer: 0L
+				title: "&6&lСтранный песок"
+				to_observe: "beachparty:sand_dirty"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71F7A7DB7711F25D"]
+			description: ["Откройте бутылку на ПКМ. В ней может быть обычная бумага или разные карты."]
+			id: "1E5C494DAABBB2ED"
+			rewards: [
+				{
+					id: "71875A5D457441DC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "0165764997942BC7"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "4F352BE305A14E13"
+					item: "minecraft:map"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "704D3C0168542E03"
+				item: "beachparty:message_in_a_bottle"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			description: ["Попробуйте сломать его."]
+			id: "605E70F8273CDCE9"
+			rewards: [{
+				id: "4EE5864E2A9126BC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				icon: "beachparty:sand_seastars"
+				id: "4A71FD74ED24AFC3"
+				observe_type: 0
+				timer: 0L
+				title: "&6&lКрасочный песок"
+				to_observe: "beachparty:sand_seastars"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["605E70F8273CDCE9"]
+			description: [
+				"Откройте её на ПКМ."
+				""
+				"&8&oС ракушки падают различные материалы( даже алмазы! ) и еда."
+			]
+			id: "5870DFB9B97EF51A"
+			rewards: [
+				{
+					id: "7E76FF7AB4A32967"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "40643B3E0C452161"
+					item: "beachparty:seashell"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E7CD9314ACCD780"
+				item: "beachparty:seashell"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["27336B83E07CA282"]
+			description: [
+				"Даёт эффект и насыщаемость."
+				""
+				"&o&8Можно использовать как декорацию"
+			]
+			id: "03AA9608E6D2B781"
+			rewards: [
+				{
+					id: "2C6A550E7642A3A6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "325C78BE362B6C2F"
+					item: "minecraft:ice"
+					type: "item"
+				}
+				{
+					id: "4B8237C0D037EEE6"
+					item: "croptopia:orange_juice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31A27225997F705B"
+				item: "beachparty:coconut_cocktail"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["27336B83E07CA282"]
+			description: [
+				"Даёт эффект и насыщаемость."
+				""
+				"&o&8Можно использовать как декорацию"
+			]
+			id: "1C5AB06178707202"
+			rewards: [
+				{
+					id: "664C9DE39AC64E5D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "7D1189DA18C29F34"
+					item: "minecraft:ice"
+					type: "item"
+				}
+				{
+					id: "3D93BB8A8AC30D21"
+					item: "croptopia:kiwi_sorbet"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2091532FE32437F7"
+				item: "beachparty:sweetberries_cocktail"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["27336B83E07CA282"]
+			description: [
+				"Даёт эффект и насыщаемость."
+				""
+				"&o&8Можно использовать как декорацию"
+			]
+			id: "7464640AB239CFF9"
+			rewards: [
+				{
+					id: "2F7B35C26427E10D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "1A69708488437654"
+					item: "minecraft:ice"
+					type: "item"
+				}
+				{
+					id: "2A82CAFD75F12B64"
+					item: "croptopia:banana_cream_pie"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "126EAD7D26832E85"
+				item: "beachparty:cocoa_cocktail"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["27336B83E07CA282"]
+			description: [
+				"Даёт эффект и насыщаемость."
+				""
+				"&o&8Можно использовать как декорацию"
+			]
+			id: "0EF9487DD96C6287"
+			rewards: [
+				{
+					id: "07C7A88A32BC352E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "75C08BCE91F788E8"
+					item: "minecraft:ice"
+					type: "item"
+				}
+				{
+					id: "23846F9D6A9FFB06"
+					item: "croptopia:apple_pie"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "65A6FE4F20CD0BEB"
+				item: "beachparty:pumpkin_cocktail"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["27336B83E07CA282"]
+			description: [
+				"Даёт эффект и насыщаемость."
+				""
+				"&o&8Можно использовать как декорацию"
+			]
+			id: "110575F4BF5AA47D"
+			rewards: [
+				{
+					id: "4D0C907FD4BE64B1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "14D4E50556A1459D"
+					item: "minecraft:ice"
+					type: "item"
+				}
+				{
+					id: "68F7FD90CD199702"
+					item: "croptopia:melon_juice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16393AA26153D7DD"
+				item: "beachparty:melon_cocktail"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["27336B83E07CA282"]
+			description: [
+				"Даёт эффект и насыщаемость."
+				""
+				"&o&8Можно использовать как декорацию"
+			]
+			id: "1B6653DF70A31117"
+			rewards: [
+				{
+					id: "77FD395730DBADEF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "3D0A924B6C7E05B1"
+					item: "minecraft:ice"
+					type: "item"
+				}
+				{
+					id: "07A157549A1D1C08"
+					item: "croptopia:strawberry_jam"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "26F0977057BBEE90"
+				item: "beachparty:honey_cocktail"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6D127E09118A5766"]
+			id: "1C3262C1C598E9F6"
+			rewards: [
+				{
+					id: "2DC0A2AA5ACF5E8C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "22DF06CCC18AA34D"
+					item: "minecraft:snowball"
+					type: "item"
+				}
+				{
+					id: "59963A1CBC51EB0E"
+					item: "clutter:kiwi"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5903150A7FEFC414"
+				item: "beachparty:sweetberry_icecream"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6D127E09118A5766"]
+			id: "4192BB40B7192ECD"
+			rewards: [
+				{
+					id: "26F70324EEB63A0E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "5F815FC7376696AD"
+					item: "minecraft:snowball"
+					type: "item"
+				}
+				{
+					id: "23754E8E4B9636FC"
+					item: "croptopia:orange"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E1C9CA9E8B81B1B"
+				item: "beachparty:coconut_icecream"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6D127E09118A5766"]
+			id: "0A8A2DAECEE6F4BC"
+			rewards: [
+				{
+					id: "17961D7FE7FA2E8C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "262094ED11CE668A"
+					item: "minecraft:snowball"
+					type: "item"
+				}
+				{
+					id: "7C7C36651894BB74"
+					item: "croptopia:strawberry"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B294DFDDA90778C"
+				item: "beachparty:chocolate_icecream"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6D127E09118A5766"]
+			id: "3EAA9C9D0AD1AEAC"
+			rewards: [
+				{
+					id: "2121CAFE62BFC9BC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "3E149ECCEFCB1EF3"
+					item: "minecraft:ice"
+					type: "item"
+				}
+				{
+					id: "587841E6C04E65F7"
+					item: "clutter:kiwi"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67BBBC6A63077142"
+				item: "beachparty:icecream_sweetberries"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6D127E09118A5766"]
+			id: "234F0F0F114CBBCF"
+			rewards: [
+				{
+					id: "6E77E8A5C3871A00"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "32A141D1D4AA32A8"
+					item: "minecraft:ice"
+					type: "item"
+				}
+				{
+					id: "5BA9688961F44148"
+					item: "croptopia:strawberry"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D86D1E591BACB6E"
+				item: "beachparty:icecream_chocolate"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6D127E09118A5766"]
+			id: "542088451070EB9C"
+			rewards: [
+				{
+					id: "13CFE5A3CFF4ABE6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "2B0597350DC67747"
+					item: "minecraft:ice"
+					type: "item"
+				}
+				{
+					id: "32A2477A2AAB4FDD"
+					item: "croptopia:pineapple_pepperoni_pizza"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16E6E676CE5DAE8F"
+				item: "beachparty:icecream_coconut"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6D127E09118A5766"]
+			id: "45CB3741B199A49F"
+			rewards: [
+				{
+					id: "327818E00B2ECC34"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "0AE0AFC1FEF0E14A"
+					item: "minecraft:ice"
+					type: "item"
+				}
+				{
+					id: "504439C04CC13D19"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:thorns"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5BB18C04ACD33D6C"
+				item: "beachparty:icecream_cactus"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6D127E09118A5766"]
+			id: "1E2006009B534F41"
+			rewards: [
+				{
+					id: "6787279452B00ED4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "1BF77983C5B8770A"
+					item: "minecraft:ice"
+					type: "item"
+				}
+				{
+					id: "2E69A9A220B95D93"
+					item: "regions_unexplored:duskmelon_slice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "197B318ECB56B06B"
+				item: "beachparty:icecream_melon"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1A8774D48D140DA2"]
+			description: ["Из досок вы можете сделать огромное количество декораций для Вашего пляжа!"]
+			icon: "beachparty:deck_chair"
+			id: "1E0ED295F5880759"
+			rewards: [
+				{
+					id: "6150765CAB6285C8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2E51675014B14426"
+					item: "beachparty:deck_chair"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2BA8FED04E8D5729"
+				title: "&b&lБольшое количество декораций "
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+	]
+	title: "&e&lПляжная вечеринка!"
+}

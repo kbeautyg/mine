@@ -1,0 +1,652 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "70AA69B97440736B"
+	group: ""
+	icon: "golemfirststonemod:item_flame_of_creation_red"
+	id: "70AA69B97440736B"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.75d
+			hover: [ ]
+			image: "ftbquests:block/mexaniki"
+			rotation: 0.0d
+			width: 7.0d
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ftbquests:block/ypravlenie"
+			rotation: 0.0d
+			width: 8.0d
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			click: "https://discord.gg/KecCtuAQmj"
+			corner: false
+			dev: false
+			height: 1.1d
+			hover: ["Тыкни"]
+			image: "minecells:textures/gui/button/discord.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.1d
+			hover: ["Кликни на значок дискорда - там будет дискорд Аркании, в котором тебе смогут помочь со всеми проблемами и вопросами."]
+			image: "ftbquests:textures/gui/alert.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "ftbquests:block/text1"
+			rotation: 0.0d
+			width: 20.0d
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			click: "#069C3EDE17C51CA1"
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "ftbquests:block/anim"
+			rotation: 0.0d
+			width: 2.5d
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			click: "55AA9931F84943B6"
+			corner: false
+			dev: false
+			height: 20.0d
+			hover: [ ]
+			image: "ftbquests:block/menuanim"
+			order: -1
+			rotation: 0.0d
+			width: 20.0d
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:block/text3"
+			rotation: 0.0d
+			width: 3.2d
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "ftbquests:block/arrowoftreeskill"
+			rotation: 0.0d
+			width: 5.0d
+			x: 10.308673469387749d
+			y: 5.033163265306129d
+		}
+	]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			icon: "betterend:cave_grass"
+			id: "706ED055B816B8D4"
+			rewards: [{
+				id: "63351BE2B57F0696"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "circle"
+			size: 1.25d
+			subtitle: "&eНачните свое путешествие!"
+			tasks: [{
+				icon: "betterend:cave_grass"
+				id: "2F6289CC61881552"
+				stat: "minecraft:total_world_time"
+				title: "Зайти в мир"
+				type: "stat"
+				value: 1
+			}]
+			title: "Первый шаг"
+			x: 1.875d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Чтобы накапливать очки для развития навыков в дереве прокачки, &cнеобходимо побеждать монстров."
+				""
+				""
+				""
+				"Что бы сбросить ветку прокачки (не сбрасывая очки) = &8/puffish_skills skills reset [твой ник] combat"
+			]
+			icon: "fwaystones:scroll_of_infinite_knowledge"
+			id: "0B00C078CFD35585"
+			rewards: [{
+				id: "737E8C076BA0D49A"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "rsquare"
+			subtitle: "Вы можете открыть &eДерево талантов&r, нажав &a\"K\"&r."
+			tasks: [{
+				id: "39B813D331CD0A15"
+				type: "checkmark"
+			}]
+			title: "&f&lПрогресс:&r &eДерево талантов"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Нажми &a[M]&r что бы открыть &eкарту мира&r"
+				"Нажми &a[Z]&r что бы сделать больше &eМиникарту&r."
+				"Нажми &a[б]&r что бы &eпоставить метку"
+				""
+				"Вы можете нажать на &a[Tab]&r что бы показать значки мобов на мини-карте"
+				""
+				"Мобы на мини-карте отображаются &4ТОЛЬКО&r на &425&r блоков под игроком и &425&r над игроком"
+			]
+			icon: "minecraft:map"
+			id: "6EAB74775646926C"
+			rewards: [{
+				id: "489F32D11EE2E3AC"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7AF5A259CEFEF7E0"
+				type: "checkmark"
+			}]
+			title: "&e&lКарта&d"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			icon: "minecells:wilted_wall_leaves"
+			id: "089BBE91E3688BB5"
+			rewards: [{
+				id: "24265E694BB328B2"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "rsquare"
+			subtitle: "Вы можете приближать и отдалять квесты с помощью сочетания &c ctrl+ колесико мышки&r"
+			tasks: [{
+				id: "14C70EEB46040228"
+				type: "checkmark"
+			}]
+			title: "&fПриблизь/Отдали &bквесты"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Боевая механика была изменена модом &bBetter Combat&r"
+				""
+				"- &6&lОружие &r&7Каждое оружие имеет свою анимацию и свое кд на удар."
+				""
+				"- &6&lКомбо &r&7Последовательность атак будут выполнять комбо."
+				""
+				"- &6&lУдерживаете для атаки &r&7Вы можете удерживать кнопку атаки, чтобы продолжать атаковать непрерывно."
+				""
+				"-&6&l Два ствола 0_0 &r&7Вы можете взять &5легкие&r &7оружия в обе руки и крамсать всех в две руки "
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "556EE16CC4B90D14"
+			rewards: [{
+				id: "05752C95C8FDA1D2"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "rsquare"
+			subtitle: "&8[Нажми что бы увидеть больше]"
+			tasks: [{
+				id: "1B28F4659490B56F"
+				title: "Понял"
+				type: "checkmark"
+			}]
+			title: "&eНовая боевая система!"
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Время перезарядки кувырка отображается синей стрелкой &4внизу экрана."
+				""
+				"{image:ftbquests:block/combatroll width:100 height:100 align:1}"
+			]
+			icon: "conjuring:haste_charm"
+			id: "5F9466873BD5C37A"
+			rewards: [{
+				id: "35C605220F572F07"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "rsquare"
+			subtitle: "Теперь вы можете делать &a Рывок на букву R"
+			tasks: [{
+				id: "445D059E4921D8CB"
+				title: "Ура"
+				type: "checkmark"
+			}]
+			title: "&eРывок"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: [
+				"Спасибо что играете в сборку &6Arcania&r &41.3.4&r "
+				""
+				"Создал - &4moqen&r"
+			]
+			icon: "soulsweapons:chaos_orb"
+			id: "123CC4C8581D553E"
+			rewards: [{
+				id: "2284B8098EF007A4"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "291934153BA5670E"
+				title: "Добро пожаловать в Arcania!"
+				type: "checkmark"
+			}]
+			title: "&6&lДобро пожаловать в &b&lArcania&6&l!"
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"На кнопку &2[&r вы сможете менять режим подъема на блок"
+				""
+				"Stepup - &4Выкл&r &f(мод отключен)"
+				""
+				"Stepup - &4Автопрыжок&r &f(автопрыжок как обычно)"
+				""
+				"Stepup - &4Вкл&r &f(Мгновенный подъем на блок без прыжка)"
+			]
+			icon: "twigs:weeping_polished_blackstone_brick_stairs"
+			id: "65F5D8D46ADF878F"
+			rewards: [{
+				id: "266345C9C7CA2525"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "rsquare"
+			subtitle: "&6Автоподъём&r на блок"
+			tasks: [{
+				id: "12477191D39F9C5E"
+				title: "&6Автоподъём"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"В сборке есть простой внутриигровой &aголосовой чат&r"
+				""
+				"Вы сможете его настроить на кнопку &4[-] (минус)&r"
+				""
+				""
+				"Включить микрофон (режим рации) на &cCaps lock"
+				""
+				""
+				""
+				"{image:ftbquests:block/voice width:100 height:100 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "immersive_melodies:piano"
+				tag: { }
+			}
+			id: "1AD64047A49230DA"
+			rewards: [{
+				id: "5F6F36B40D95C95D"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "54606B603143DA43"
+				title: "&3Голосовой чат"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"На букву &9[C]&r вы сможете приближать камеру "
+				"+ &6на колесико мышки&r сможете приблизить еще сильнее"
+			]
+			icon: "minecraft:spyglass"
+			id: "2654B98BBCF88BD7"
+			rewards: [{
+				id: "7D5FA85129D60C32"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0D4B41DD7F595474"
+				title: "&eПриближение в игре"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Добавлены специальные камни - &6Телепортации&r."
+				" - Генерируются в &aдеревнях"
+				" - Можно &aсоздать самому&r из рецепта"
+				" - Иногда &aспавнятся в других структурах&r мира"
+				"Мод делает перемещение по миру быстрым и удобным."
+				""
+				"{image:ftbquests:block/stolb width:100 height:100 align:1}"
+			]
+			icon: "fwaystones:waystone"
+			id: "634533A3CD129BE7"
+			rewards: [{
+				id: "226C17D4CE37DAA5"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "rsquare"
+			subtitle: "&8[Нажми что бы увидеть больше]"
+			tasks: [{
+				id: "2A21683C2E204F94"
+				title: "&eТелепортация "
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Если требуется &4изменить&r внешний вид прицела"
+				""
+				"Нажмите &a[ё]&r"
+			]
+			icon: "minecraft:spectral_arrow"
+			id: "72E4ED411256725B"
+			rewards: [{
+				id: "03D291FBD2DA0113"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "rsquare"
+			subtitle: "&8[Нажми что бы увидеть больше]"
+			tasks: [{
+				id: "36A43A4F272FD1DF"
+				title: "&eПрицел "
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"нажмите &e[R]&r что бы увидеть рецепт"
+				"нажмите &e[U]&r что бы посмотреть для чего предмет"
+			]
+			icon: "minecraft:crafting_table"
+			id: "4C916A772E664CB8"
+			rewards: [{
+				id: "10EEA2A6EBA708A1"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2BDD4D2264ACDFEA"
+				title: "&eКрафты"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			description: ["Если зажать &eShift+ЛКМ&r = дерево сломается моментально"]
+			icon: {
+				Count: 1b
+				id: "minecraft:golden_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6B453D158A016719"
+			rewards: [{
+				id: "09BCFFBEA3A587A8"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1CC8C78C82F61030"
+				title: "Ломание дерева"
+				type: "checkmark"
+			}]
+			title: "&eЛесоруб"
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			description: ["Теперь на кнопку &e[X]&r можно будет ползать"]
+			icon: "beachparty:beach_grass"
+			id: "0827CC301164E263"
+			rewards: [{
+				id: "7B7ED36C4A516D4E"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "08B159B30ED36A71"
+				title: "&eПолзание"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"С каждым днем у враждебных мобов увеличивается &cурон, хп и скорость&r "
+				""
+				""
+				"{image:vinery:textures/mob_effect/improved_health_boost.png width:100 height:100 align:1}"
+				""
+				""
+				""
+				"Теперь даже некоторые &aнейтральные мобы&r стали враждебны по отношению к вам "
+				""
+				""
+				"Некоторые мобы будут призывать &9фантомов&r что бы достать вас на высоте"
+				""
+				""
+				""
+				"{image:mcda:item/phantom_skin width:100 height:100 align:1}"
+				""
+				""
+				"&aКриперы&r &4взрываются&r больнее, &fстрелы скелетов&r наносят намного больше урона &n&l(со временем)&r"
+				""
+				"&cМобы так же могут иногда разливать под вас лаву или бросать TNT, но эт уже  70 дн + (блоки тнт ломать не будет и лава будет разливаться на 1мс под вас)"
+				""
+				""
+				"На сервере (хостинге) считается время прогрессии (только когда вы на сервере), когда вас нету - дни идут, а сложность прибавляться не будет ( так что все будет норм )"
+			]
+			icon: "artifacts:crystal_heart"
+			id: "63C54B1AE4005527"
+			rewards: [{
+				id: "4A04AEB4FDAAB884"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6E1B2B961889B01C"
+				title: "&cПрогрессия мобов"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"В сборке добавлен новый вид просмотра по сторонам с помощью кнопки &e[F5]"
+				"{image:ftbquests:block/thirdperson width:100 height:100 align:1}"
+			]
+			icon: "netherdepthsupgrade:eyeball"
+			id: "57804EA4A796451B"
+			shape: "rsquare"
+			tasks: [{
+				id: "4BF0EC4F7A65609F"
+				title: "&eНовый вид от 3-го лица "
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			description: ["&4\"Вы играете в песочнице и можете делать всё, что пожелаете и как пожелаете\"."]
+			icon: "beachparty:palm_sign"
+			id: "178BD49D65C20FC1"
+			shape: "rsquare"
+			tasks: [{
+				id: "401573FD005DA0F2"
+				title: "Как двигаться по квестам?"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			description: [
+				"Аркания предлагает выбор среди уже имеющихся красивых шейдеров которые уже есть в сборке"
+				""
+				"Чтобы открыть панель с шейдерами нажмите &e[O]&r"
+			]
+			icon: "minecraft:water_bucket"
+			id: "50728EA0319527A7"
+			rewards: [{
+				id: "485F2731F8E91354"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7E8C014DEB38AF96"
+				title: "&eШейдеры"
+				type: "checkmark"
+			}]
+			title: "Шейдеры"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Чтобы сменить скин, нажмите клавишу \"Г \""
+				""
+				"После открытия контекстного меню выберите нужную вам вкладку."
+				"Чтобы узнать, какая именно вкладка вам нужна прочтите следующие пункты"
+				""
+				"Вкладка &a&lПолучить с игрока&r:"
+				"&l&4САМЫЙ ПРОСТОЙ СПОСОБ ПОСТАВИТЬ ВАШ СКИН&r&r"
+				"Для того чтобы поставить скин вам просто нужен ник игрока со скином который вы хотите поставить."
+				"Вводите ник понравившегося игрока и нажимаете применить."
+				"&6P.S. У игрока должна быть лицензионная копия игры.&r"
+				""
+				"Вкладка &a&lЗагрузить локальный скин&r:"
+				"Выбираете этот способ если ваш скин находится в виде .PNG файла на вашем устройстве."
+				""
+				"Следом, вам нужно сохранить путь к вашему скину, примерный путь выглядит так:"
+				"&l&bC:\\Desktop\\(Название вашего файла).PNG&r&r"
+				""
+				"Выбираете какой скин вам нужен с помощью галочки (С тонкими руками или без)"
+				"И нажимаете клавишу &aПрименить.&r"
+				""
+				"Вкладка &a&lПолучить URL&r:"
+				"Здесь же нам нужена будет ссылка на скин которых хранится на хостингах для фото."
+				"Покажем как установить скин на примере сайта imgur.com"
+				""
+				"Скачиваем с интернета скин который вам нравится, заходим на имгур и просто перекидываем нужную фотографию в зону области где находится сайт."
+				""
+				"Далее у вас откроется меню с 1 картинкой которую вы загрузили, наводитесь на неё и в верхнем правом углу нажимаете на кнопку &aCopy link&r "
+				""
+				"После чего в буфер обмена у вас сохранится ссылка на ваш скин и нужно будет добавить .PNG в конце ссылки"
+				"&9Пример ссылки: https://imgur.com/IGCPZZN.png&r"
+				""
+				"После чего вам нужно будет вставить ссылку на ваш скин в соответствующее поле и также выбрать размер рук для вашего скина. (Это самый простой способ получить скин из URL)"
+				""
+				"Вкладка &a&lПолучить плащ&r:"
+				"В этой вкладке вы можете изменить свой плащ"
+				""
+				"Как сменить плащ вы можете посмотреть по ссылке: https://www.youtube.com/watch?v=ZXp4Wapb_4U"
+				"Текстовая версия:"
+				"Делаем почти всё тоже самое как и со способа &a&lПолучить URL&r, только загружаем свой плащ и вставляем ссылку в соответсвующую вкладку"
+			]
+			icon: "minecraft:player_head"
+			id: "09467F723AAF60F8"
+			rewards: [{
+				id: "26F3881FA2FB3D96"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "rsquare"
+			subtitle: "Сменить скин может каждый"
+			tasks: [{
+				id: "3513C620DEE3EA24"
+				title: "&eСмена скина и плаща"
+				type: "checkmark"
+			}]
+			title: "&f&lСмена скина и плаща"
+			x: 10.0d
+			y: 3.0d
+		}
+	]
+	title: "&7&lПриключения начинаются !"
+}

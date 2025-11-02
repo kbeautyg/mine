@@ -1,0 +1,12 @@
+{
+  "floorSpawnHeightDiff": -20,
+  "topSpawnHeightDiff": 40,
+  "floorDespawnHeightDiff": -40,
+  "topDespawnHeightDiff": 80,
+  "controlledGroups": [
+    "monster"
+  ],
+  "controlledEntities": [
+    "minecraft:glow_squid"
+  ]
+}

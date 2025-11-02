@@ -1,0 +1,632 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "d"
+	group: "28A047DAEA79CB0D"
+	icon: {
+		Count: 1b
+		id: "vinery:creepers_crush"
+		tag: {
+			Year: 0
+		}
+	}
+	id: "1B9530D2CD2950B4"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "vinery:item/red_grapejuice_wine_bottle"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "vinery:item/savanna_grapes_red"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "vinery:item/savanna_grapes_white"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "vinery:block/decor"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -11.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "croptopia:block/grape_crop_stage2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "croptopia:block/grape_crop_stage3"
+			rotation: -20.0d
+			width: 1.0d
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "vinery:item/basket"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -1.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Получите виноград, собрав его с кустов или купив у &5&oвинодела&r."
+				""
+				"Винодел получается путём присваивания проффесии крестьянину с помощью &aЯблочного Пресса"
+				""
+				"Если вы его съедите, то получите &aсемена&r."
+			]
+			icon: "vinery:red_grape"
+			id: "5EC3A79F94C60AE7"
+			rewards: [{
+				id: "7E946886C3A5D522"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "560675FA7244D1CE"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "vinery:red_grape"
+					}
+				}
+				title: "Любой &cкрасный виноград"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Получите виноград, собрав его с кустов или купив у &5&oвинодела&r."
+				""
+				"Винодел получается путём присваивания проффесии крестьянину с помощью &aЯблочного Пресса"
+				""
+				"Если вы его съедите, то получите &aсемена&r."
+			]
+			icon: "vinery:white_grape"
+			id: "57CA4136B42A1737"
+			rewards: [{
+				id: "5FC14208A5E4E1E0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "590B857D68020645"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "vinery:white_grape"
+					}
+				}
+				title: "Любой &f&lбелый виноград"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"57CA4136B42A1737"
+				"5EC3A79F94C60AE7"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Один из основных блоков мода &5&ovinery&r."
+				""
+				"Заложите в него &5&o6 ягод&r и попрыгайте на них, после чего соберите получившуюся жидкость с помощью &5&oвинной бутылки"
+			]
+			id: "048963964DAFFD6D"
+			rewards: [
+				{
+					count: 2
+					id: "4620E5D765F50548"
+					item: "vinery:wine_bottle"
+					type: "item"
+				}
+				{
+					id: "6F8EACDC6D010015"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "063223A8880226DF"
+				item: "vinery:grapevine_pot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			description: ["Сосуд для &5&oвиноградного сока"]
+			id: "266413ED8636FC23"
+			rewards: [
+				{
+					id: "0A7D56615B00208E"
+					item: "vinery:red_grape_seeds"
+					type: "item"
+				}
+				{
+					id: "22ECC2464F81ED44"
+					item: "vinery:white_grape_seeds"
+					type: "item"
+				}
+				{
+					id: "1B5D55E0F4C81FE8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "411FB0507928C317"
+				item: "vinery:wine_bottle"
+				type: "item"
+			}]
+			title: "&9Винная бутылка"
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"266413ED8636FC23"
+				"048963964DAFFD6D"
+			]
+			id: "21C2824038189390"
+			rewards: [{
+				id: "53CFB34C65F2E823"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "6610AFEB322F92D9"
+				item: "vinery:red_grapejuice_wine_bottle"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"266413ED8636FC23"
+				"048963964DAFFD6D"
+			]
+			id: "53B0C78D08EFF948"
+			rewards: [{
+				id: "23094FEE24213785"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "75820F4EE44CDFFD"
+				item: "vinery:white_grapejuice_wine_bottle"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"266413ED8636FC23"
+				"048963964DAFFD6D"
+			]
+			id: "4AA39A5BA8F7A7A0"
+			rewards: [{
+				id: "065DB392F8811362"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "380724CDE2443B39"
+				item: "vinery:taiga_red_grapejuice_bottle"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"266413ED8636FC23"
+				"048963964DAFFD6D"
+			]
+			id: "25A0D3E298EAC56A"
+			rewards: [{
+				id: "6AEF1D3D6E62996A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "311F1571C507B401"
+				item: "vinery:taiga_white_grapejuice_bottle"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"266413ED8636FC23"
+				"048963964DAFFD6D"
+			]
+			id: "54836DC324ADB856"
+			rewards: [{
+				id: "7DF3FFF7261AB515"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "03EDA12292551304"
+				item: "vinery:jungle_red_grapejuice_bottle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"266413ED8636FC23"
+				"048963964DAFFD6D"
+			]
+			id: "7BB75610FC3EC31A"
+			rewards: [{
+				id: "7A182D34E6B6471C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "37BB889F6AA127CD"
+				item: "vinery:jungle_white_grapejuice_bottle"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"266413ED8636FC23"
+				"048963964DAFFD6D"
+			]
+			id: "73A4105D864B1EAA"
+			rewards: [{
+				id: "04B648C535C0DC54"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "4C0ED5C0F3501288"
+				item: "vinery:savanna_red_grapejuice_bottle"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"266413ED8636FC23"
+				"048963964DAFFD6D"
+			]
+			id: "362DD66541A40A25"
+			rewards: [{
+				id: "0E730468F8550BB7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5A5050F18E5DEDAE"
+				item: "vinery:savanna_white_grapejuice_bottle"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"25A0D3E298EAC56A"
+				"7BB75610FC3EC31A"
+				"73A4105D864B1EAA"
+				"362DD66541A40A25"
+				"21C2824038189390"
+				"53B0C78D08EFF948"
+				"54836DC324ADB856"
+				"4AA39A5BA8F7A7A0"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Второй основной блок мода."
+				""
+				"Положите в него &5&oвиноградный сок&r, ингридиенты для нужного вам &5&oвина&r и заполните слот под стрелочкой крафта &o&9винными бутылками&r."
+				""
+				"&8&oВино в этом моде имеет самые различные эффекты, среди которых усиленные ванильные и просто полезные."
+			]
+			id: "2EEE571F13424C4D"
+			rewards: [
+				{
+					count: 2
+					id: "5EA207BE44102A07"
+					item: "vinery:wine_bottle"
+					type: "item"
+				}
+				{
+					id: "7B996DC25B2AF577"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [{
+				id: "28DEC576620F041D"
+				item: "vinery:fermentation_barrel"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			description: [
+				"Стильный сет фермера."
+				""
+				"Имеет приятную способность при полном сете."
+			]
+			icon: {
+				Count: 1b
+				id: "vinery:straw_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "11E6135F9F0DD3E4"
+			rewards: [
+				{
+					id: "316F2596AE2E1025"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					id: "67A8B8F5380345C9"
+					item: "vinery:savanna_grape_seeds_red"
+					type: "item"
+				}
+				{
+					id: "1E7F815FDD539AF8"
+					item: "vinery:savanna_grape_seeds_white"
+					type: "item"
+				}
+				{
+					id: "1EF06CB9509A1B4B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "3B06C8F7F31FFD7E"
+				item: {
+					Count: 1b
+					id: "vinery:straw_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6&lСет фермера"
+			x: 9.0d
+			y: -8.5d
+		}
+		{
+			description: ["Ящик для хранения вина. &eЭлегантный способ хранить Ваше вино&r."]
+			id: "5C3E08FEB8AF0CB8"
+			rewards: [
+				{
+					id: "7C363DBD78CCB263"
+					item: {
+						Count: 1b
+						id: "vinery:noir_wine"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2288AEFAB7F4BD4F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "40F276C5DC7016B2"
+				item: "vinery:wine_box"
+				type: "item"
+			}]
+			title: "&d&lХранение вина"
+			x: 9.0d
+			y: -7.5d
+		}
+		{
+			description: ["Употребление этого вина вызывает &c&lвзрыв&r."]
+			id: "7A49535F33FD74A3"
+			rewards: [
+				{
+					id: "525C7E4C0BC05C66"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "72FAC0C01A641723"
+					item: "minecraft:tnt"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "309B6FDEBEC1F68E"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "6137D23C95F5AE74"
+					item: {
+						Count: 1b
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6ECD69CE4B27A21A"
+				item: {
+					Count: 1b
+					id: "vinery:creepers_crush"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a&lВзрыв в бутылке"
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			description: ["Вы становитесь &c&lврагом разбойников&r, лишь употребив его."]
+			id: "6D0F18ADC57266C0"
+			rewards: [
+				{
+					id: "5B34927C0005324A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "7C6CC778C9442E5C"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "065EA63B38CD1BB8"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F05429459ACEBCE"
+				item: {
+					Count: 1b
+					id: "vinery:villagers_fright"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6&lПроклятая метка"
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			description: ["&aУвеличивает получаемый опыт&r на небольшой срок."]
+			id: "458F0D28A8471B2C"
+			rewards: [{
+				id: "10132EED2A88C2A4"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "465E901734E8A85A"
+				item: {
+					Count: 1b
+					id: "vinery:cristel_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a&lКатализатор опыта"
+			x: 9.0d
+			y: -4.5d
+		}
+	]
+	title: "&9&lВиноделие"
+}

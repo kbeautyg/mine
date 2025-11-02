@@ -1,0 +1,6 @@
+{
+  "__showTeamParticleTypes": "If the team has a color will play particles of that color above the mob",
+  "showTeamParticleTypes": false,
+  "__autoAddAI": "Auto target mobs from other teams (if e.g. done per command)",
+  "autoAddAI": false
+}

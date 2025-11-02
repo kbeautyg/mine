@@ -1,0 +1,1990 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1AC4EC7A0FCCE587"
+	group: "7B731D9853D1E8C6"
+	icon: {
+		Count: 1b
+		id: "minecraft:netherite_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "1AC4EC7A0FCCE587"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:item/tentacle"
+			rotation: 30.0d
+			width: 1.0d
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:item/tentacle"
+			rotation: -38.0d
+			width: 1.0d
+			x: -1.8928571428571601d
+			y: -0.33928571428569754d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "minecells:textures/particle/magic_orb.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.0714285714285907d
+			y: 0.4464285714285907d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "minecells:textures/particle/magic_orb.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -2.035714285714299d
+			y: 0.16071428571430602d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:item/balanced_blade"
+			rotation: 75.0d
+			width: 1.0d
+			x: 2.16836734693878d
+			y: -0.31632653061224403d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:item/balanced_blade"
+			rotation: -75.0d
+			width: 1.0d
+			x: 1.5561224489795933d
+			y: 0.3775510204081627d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mavapi:item/axolotl_bucket_gold"
+			order: 1
+			rotation: 45.0d
+			width: 1.0d
+			x: -1.275510204081634d
+			y: 1.9897959183673422d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "minecraft:textures/particle/goldheart_1.png"
+			rotation: 0.0d
+			width: 0.7d
+			x: -2.0102040816326507d
+			y: 1.8265306122448877d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "minecraft:textures/particle/goldheart_1.png"
+			rotation: 0.0d
+			width: 0.7d
+			x: -0.7448979591836746d
+			y: 2.6428571428571317d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "clutter:item/golden_chain"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.8061224489795933d
+			y: 2.7857142857142776d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "betterend:block/bulb_vine_middle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.2551020408163254d
+			y: 1.8877551020407992d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "betterend:block/bulb_vine_middle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.724489795918366d
+			y: 2.806122448979579d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "soulsweapons:textures/mob_effect/hallowed_dragon_mist.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.7040816326530575d
+			y: 1.8265306122448806d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "soulsweapons:textures/mob_effect/hallowed_dragon_mist.png"
+			rotation: -145.0d
+			width: 1.0d
+			x: 1.1904761904761898d
+			y: 2.6309523809523867d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "clutter:item/broken_blue_butterfly_elytra"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.738095238095241d
+			y: 2.7738095238095326d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "regions_unexplored:block/blue_hibiscus"
+			rotation: 30.0d
+			width: 1.0d
+			x: 4.064625850340143d
+			y: 1.6258503401360613d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "deeperdarker:block/sculk_tendrils_plant"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.243197278911559d
+			y: 3.724489795918366d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "deeperdarker:item/warden_axe"
+			rotation: -85.0d
+			width: 1.0d
+			x: -0.8554421768707456d
+			y: 4.316326530612244d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "deeperdarker:block/sculk_tendrils_plant"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.794217687074827d
+			y: 4.969387755102041d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "deeperdarker:textures/models/armor/warden_horns.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.22278911564625048d
+			y: 4.969387755102041d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "deeperdarker:item/soul_dust"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.243197278911559d
+			y: 3.198979591836732d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "deeperdarker:block/sculk_tendrils"
+			rotation: 90.0d
+			width: 1.0d
+			x: -1.5493197278911524d
+			y: 5.3877551020408205d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "deeperdarker:item/soul_dust"
+			rotation: 96.0d
+			width: 1.0d
+			x: -1.0391156462584945d
+			y: 5.489795918367349d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "deeperdarker:item/heart_of_the_deep"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.8962585034013557d
+			y: 4.244897959183682d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/soul_campfire_fire"
+			rotation: 135.0d
+			width: 1.0d
+			x: 1.8792517006802782d
+			y: 4.887755102040813d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "decorative_blocks:block/soul_torch_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.1028911564625972d
+			y: 3.8877551020408205d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "soulsweapons:item/lost_soul"
+			rotation: 0.0d
+			width: 0.6d
+			x: 1.8588435374149697d
+			y: 3.816326530612251d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "betterend:block/blue_vine_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.1241496598639458d
+			y: 4.81632653061223d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "deeperdarker:item/warden_sword"
+			rotation: 120.0d
+			width: 1.0d
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "deeperdarker:block/sculk_vines_plant"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5085034013605352d
+			y: 7.163265306122447d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "adventurez:item/ender_flute"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "deeperdarker:item/sculk_bone"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.2874149659864003d
+			y: 7.285714285714278d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.4d
+			hover: [ ]
+			image: "visuality:textures/particle/bone.png"
+			rotation: 0.0d
+			width: 0.4d
+			x: 2.2261904761904887d
+			y: 7.224489795918359d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.4d
+			hover: [ ]
+			image: "visuality:textures/particle/bone.png"
+			rotation: 90.0d
+			width: 0.4d
+			x: 0.532312925170082d
+			y: 6.897959183673457d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "bosses_of_mass_destruction:textures/particle/soul_flame07.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.2261904761904816d
+			y: 6.285714285714278d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.4d
+			hover: [ ]
+			image: "visuality:textures/particle/bone.png"
+			rotation: 55.0d
+			width: 0.4d
+			x: 1.613945578231295d
+			y: 5.836734693877538d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "mcdw:item/scythes/scythe_skull_scythe"
+			rotation: -95.0d
+			width: 2.0d
+			x: 2.425170068027221d
+			y: 6.428571428571431d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "bosses_of_mass_destruction:item/obsidian_heart"
+			rotation: 90.0d
+			width: 1.0d
+			x: -1.4319727891156404d
+			y: 8.392857142857146d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "bosses_of_mass_destruction:item/obsidian_heart"
+			rotation: 75.0d
+			width: 1.0d
+			x: -1.217687074829925d
+			y: 9.285714285714285d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "netherdepthsupgrade:item/obsidianfish"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.8248299319727863d
+			y: 9.392857142857139d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "artifacts:item/obsidian_skull"
+			rotation: -35.0d
+			width: 1.0d
+			x: -2.0799319727891046d
+			y: 8.69897959183674d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "soulsweapons:item/lord_soul_dark"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.6717687074829755d
+			y: 8.790816326530617d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "simplyswords:item/soulrender_layer"
+			rotation: 0.0d
+			width: 0.016666666666666666d
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "simplyswords:item/soulrender_layer"
+			rotation: 0.0d
+			width: 0.016666666666666666d
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "endermanoverhaul:item/summoner_pearl"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.1751700680272137d
+			y: 9.32142857142857d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:entity/enderdragon/dragon_fireball"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.8537414965986443d
+			y: 8.714285714285715d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "simplyswords:item/soulrender_layer"
+			rotation: 0.0d
+			width: 0.016666666666666666d
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "adventurez:item/ender_whale_meat"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.9251700680272208d
+			y: 9.32142857142857d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "bosses_of_mass_destruction:item/charged_ender_pearl"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.246598639455783d
+			y: 8.714285714285715d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "croptopia:block/cauliflower_crop_stage2"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.8605442176870497d
+			y: 10.464285714285715d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/sunflower_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.074829931972765d
+			y: 12.035714285714285d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/sunflower_back"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.8605442176870497d
+			y: 10.892857142857146d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "twigs:block/potted_azalea_flowers"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.2534013605441956d
+			y: 10.392857142857139d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "betterend:item/tenanea_flowers"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.8605442176870497d
+			y: 11.892857142857139d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mcda:item/bone_rib_cage"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.460884353741527d
+			y: 6.892857142857146d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "aquamirae:item/sharp_bones"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.8537414965986656d
+			y: 7.178571428571431d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/blaze_powder"
+			rotation: 0.0d
+			width: 0.0d
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/blaze_powder"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.3537414965986443d
+			y: 10.69642857142857d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "croptopia:block/orange_unripe"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.532312925170082d
+			y: 10.839285714285715d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "regions_unexplored:item/orange_coneflower"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.889455782312929d
+			y: 10.30357142857143d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:block/orange_wilted_wall_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.9965986394557902d
+			y: 11.482142857142854d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "promenade:block/vanilla_piles/orange_tulip"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.1037414965986514d
+			y: 11.660714285714285d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/wither_rose"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.9319727891156404d
+			y: 12.839285714285722d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "immersive_armors:item/wither_chestplate"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 14.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "visuality:textures/particle/wither_bone.png"
+			rotation: 0.0d
+			width: 0.6d
+			x: -0.5d
+			y: 13.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "clutter:item/broken_black_butterfly_elytra"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 14.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "soulsweapons:item/withered_demon_heart"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "regions_unexplored:block/red_hibiscus"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.1037414965986443d
+			y: 12.867346938775512d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "decorative_blocks:block/fire"
+			rotation: 180.0d
+			width: 1.0d
+			x: 1.5d
+			y: 14.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "netherdepthsupgrade:item/eyeball"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.1037414965986514d
+			y: 13.017857142857146d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "netherdepthsupgrade:item/eyeball"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.889455782312929d
+			y: 13.94642857142857d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "twigs:item/bronzed_seashell"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.202380952380942d
+			y: 15.540816326530624d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "minecells:textures/blockentity/banner/ramparts.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.1819727891156404d
+			y: 16.94897959183674d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/stick"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.3044217687074777d
+			y: 16.62244897959185d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "foodplusid:item/orange_candy_eating_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5901360544217624d
+			y: 16.867346938775526d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "naturalist:item/monarch"
+			rotation: 45.0d
+			width: 1.0d
+			x: -0.9574829931972744d
+			y: 15.520408163265316d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mcda:item/black_wolf_armor_boots"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5119047619047734d
+			y: 16.683673469387763d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:block/colored_torch/white"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.282312925170075d
+			y: 15.589285714285715d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "promenade:block/vanilla_piles/white_tulip"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.889455782312936d
+			y: 15.732142857142861d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "foodplusid:item/white_candy_eating_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.9965986394557973d
+			y: 16.339285714285715d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "soulsweapons:item/bloodthirster_unused"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.1198979591836675d
+			y: 19.41071428571432d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "soulsweapons:item/lord_soul_void"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.08418367346939d
+			y: 18.23214285714287d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "naturalist:item/bucket_content/snail/black"
+			rotation: -40.0d
+			width: 1.0d
+			x: -1.9056122448979593d
+			y: 18.303571428571438d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "foodplusid:item/black_candy_eating_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0484693877550981d
+			y: 19.08928571428573d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 7.0d
+			hover: [ ]
+			image: "ftbquests:block/bosstext"
+			rotation: 0.0d
+			width: 28.0d
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.7d
+			hover: [ ]
+			image: "soulsweapons:item/essence_of_luminescence"
+			order: 2
+			rotation: 0.0d
+			width: 0.7d
+			x: -2.5357142857142847d
+			y: 6.223214285714313d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.7d
+			hover: [ ]
+			image: "soulsweapons:item/essence_of_luminescence"
+			order: 2
+			rotation: 0.0d
+			width: 0.7d
+			x: -3.142857142857146d
+			y: 5.723214285714313d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/chain"
+			rotation: 50.0d
+			width: 1.0d
+			x: -2.4285714285714235d
+			y: 7.0446428571428825d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/chain"
+			order: -1
+			rotation: 50.0d
+			width: 1.0d
+			x: -4.892857142857146d
+			y: 9.401785714285744d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/chain"
+			order: -1
+			rotation: 50.0d
+			width: 1.0d
+			x: -5.392857142857146d
+			y: 9.937500000000028d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/chain"
+			rotation: -45.0d
+			width: 1.0d
+			x: -5.357142857142861d
+			y: 3.866071428571452d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/chain"
+			rotation: -45.0d
+			width: 1.0d
+			x: -4.785714285714292d
+			y: 4.401785714285744d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/chain"
+			order: -1
+			rotation: -45.0d
+			width: 1.0d
+			x: -3.2857142857142847d
+			y: 5.437500000000028d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/chain"
+			rotation: -45.0d
+			width: 1.0d
+			x: -2.75d
+			y: 5.937500000000028d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/chain"
+			rotation: 50.0d
+			width: 1.0d
+			x: -2.9285714285714306d
+			y: 7.508928571428598d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/chain"
+			rotation: 50.0d
+			width: 1.0d
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/chain"
+			rotation: 50.0d
+			width: 1.0d
+			x: -4.392857142857139d
+			y: 8.937500000000028d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/chain"
+			rotation: -45.0d
+			width: 1.0d
+			x: -2.25d
+			y: 6.437500000000028d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/soul_campfire_fire"
+			rotation: 180.0d
+			width: 1.0d
+			x: -6.035714285714285d
+			y: 11.366071428571445d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "soulsweapons:item/lost_soul"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.8214285714285765d
+			y: 10.294642857142875d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/particle/sculk_soul_8.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.785714285714292d
+			y: 10.116071428571445d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "graveyard:item/bone_dagger"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.607142857142854d
+			y: 3.6517857142857295d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "clutter:block/dead_ghost_coral"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 1.973214285714299d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "illagerinvasion:block/magic_fire_0"
+			rotation: 0.0d
+			width: 0.03125d
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "soulsweapons:block/hydrangea"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5714285714285694d
+			y: 7.33035714285716d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "graveyard:textures/particle/soul_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 3.4017857142857295d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "simplyswords:item/gobber_compat/nether_gobber/warglaive_nether_gobber"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.4285714285714306d
+			y: 4.044642857142875d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "soulsweapons:block/oleander_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.214285714285715d
+			y: 4.258928571428591d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "regions_unexplored:block/pink_magnolia_flowers"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.321428571428569d
+			y: 5.366071428571445d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "soulsweapons:textures/particle/purple_flame.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -2.892857142857146d
+			y: 8.044642857142875d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "soulsweapons:textures/particle/purple_flame.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -4.607142857142861d
+			y: 8.437500000000014d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "regions_unexplored:item/purple_coneflower"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.071428571428569d
+			y: 7.83035714285716d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.7d
+			hover: [ ]
+			image: "soulsweapons:item/essence_of_eventide"
+			order: 2
+			rotation: 0.0d
+			width: 0.7d
+			x: -2.9642857142857153d
+			y: 7.508928571428591d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.7d
+			hover: [ ]
+			image: "soulsweapons:item/essence_of_eventide"
+			order: 2
+			rotation: 0.0d
+			width: 0.7d
+			x: -2.3214285714285694d
+			y: 7.008928571428591d
+		}
+	]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:bone"
+			id: "03FBBCFC4C8ECCED"
+			rewards: [{
+				id: "31F62DE71FE56632"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				entity: "adventurez:summoner"
+				id: "3BA011AD8E01212B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Убить &f&lПризывателя"
+			x: 3.139455782312936d
+			y: 7.142857142857146d
+		}
+		{
+			description: ["Или же &aЦветок Пустоты&r. Спавнится &eглубоко под землей&r и &cявляется весьма серьезным противником&r."]
+			id: "5CCE24D1A2539A10"
+			rewards: [{
+				id: "354BE461E3F8163E"
+				type: "xp"
+				xp: 1
+			}]
+			size: 1.5d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "regions_unexplored:cactus_flower"
+				id: "19E17F555F555C17"
+				title: "&a&lПЛАНТЕРА?!?!?!?"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 11.25d
+		}
+		{
+			hide_dependency_lines: true
+			id: "657DCC34B0A4EF10"
+			rewards: [{
+				id: "5FB5D3515BFE6345"
+				type: "xp"
+				xp: 1
+			}]
+			size: 1.5d
+			subtitle: "Появляется в &4Нижнем мире&r, когда игрок пытается добыть &6золотую руду Нижнего мира&r или когда &6Пиглины&r зовут его на помощь."
+			tasks: [{
+				entity: "adventurez:piglin_beast"
+				icon: "adventurez:piglin_flag_block"
+				id: "4308E5E9C372B9BD"
+				title: "Убить &cЧудовищного пиглина"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Убить &cЧудовищного пиглина"
+			x: -1.5d
+			y: 16.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: ["Сломайте блоки алтаря по середине арены, чтобы призвать босса"]
+			hide_dependency_lines: true
+			id: "0AD4168EFF6A0226"
+			rewards: [{
+				id: "649F98B8531A30B9"
+				type: "xp"
+				xp: 1
+			}]
+			size: 1.5d
+			subtitle: "Спавнится в редкой структуре в &cНижнем мире"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				id: "60D8DDC84F107D59"
+				title: "Убейте адскую перчатку"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Убейте &cАдскую перчатку"
+			x: 1.5d
+			y: 13.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "35721E6EE80F3AA1"
+			rewards: [{
+				id: "1AC4AABFE34564F6"
+				type: "xp"
+				xp: 1
+			}]
+			size: 1.5d
+			subtitle: "Появляется в Багровых лесах&4 Нижнего мира&r."
+			tasks: [{
+				entity: "soulsweapons:withered_demon"
+				icon: "soulsweapons:withered_demon_heart"
+				id: "24DF79670CC3106A"
+				title: "Убейте Иссохшего демона "
+				type: "kill"
+				value: 1L
+			}]
+			title: "Убейте &8Иссохшего демона "
+			x: 1.5d
+			y: 16.0d
+		}
+		{
+			id: "23F1AD84BDE4CE7A"
+			rewards: [{
+				id: "27442330DB3A54CE"
+				type: "xp"
+				xp: 1
+			}]
+			size: 1.5d
+			subtitle: "Появляется рядом с &6генераторами пламени&7 в &4крепостях Нижнего мира&7, но также может появляться в &4Пустошах Нижнего мира."
+			tasks: [{
+				entity: "adventurez:blaze_guardian"
+				icon: "minecraft:blaze_rod"
+				id: "3FD4759B51842DE0"
+				title: "Убить &6Стража Пламени"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Убить &6Стража Пламени"
+			x: 1.5d
+			y: 11.25d
+		}
+		{
+			id: "52D1BF79838C7272"
+			rewards: [{
+				id: "6B0522E8022487FA"
+				type: "xp"
+				xp: 1
+			}]
+			size: 1.5d
+			subtitle: "Появляется в &4крепостях Нижнего мира&r."
+			tasks: [{
+				entity: "adventurez:necromancer"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "432CF629E9A88CE9"
+				title: "Убить &8Визера-некроманта"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Убить &8Визера-некроманта"
+			x: -1.5d
+			y: 13.5d
+		}
+		{
+			id: "422BC260B9CBD680"
+			rewards: [{
+				id: "020E4799D4C31CC9"
+				type: "xp"
+				xp: 1
+			}]
+			size: 1.5d
+			subtitle: "Появляется в &bДолине песка Душ&r, на своем &cКоне-Кошмаре"
+			tasks: [{
+				entity: "adventurez:soul_reaper"
+				id: "0A32AAAE67CD5A7F"
+				title: "Убить &cЖнеца Душ"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 18.75d
+		}
+		{
+			description: [
+				"&dПоврежденный Эндермен&r появляется случайным образом в &aОбычном мире&r. "
+				""
+				"&o&8Каждые &e5 минут&r &o&8во время ночи есть небольшая вероятность, что он появится возле вас."
+			]
+			id: "4B6AA53027DBFD8B"
+			rewards: [{
+				id: "2032D50821AAA0D5"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "endermanoverhaul:warped_forest_enderman"
+				icon: "minecraft:ender_pearl"
+				id: "69BB3F3E4303EE3E"
+				title: "Убить &dИскаженного эндермена"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			description: [
+				"В &dКрае&r находится &5Обсидилит - гигантский моб, похожий на структуру&r."
+				""
+				"Его можно найти на вершине арены &5Обсидилит&r, гигантской конструкции, которую можно найти &eплавающей в пустоте&r."
+				""
+				""
+				"На крыше строения вы найдете &5обсидиановый алтарь&r. Когда в него будет добавлено &dОко Эндера&r, появится &cбосс"
+				""
+				""
+				"&o&8Для борьбы с этим боссом рекомендуется иметь элитры."
+			]
+			icon: "bosses_of_mass_destruction:obsidian_heart"
+			id: "0DABDB265A290BE3"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					icon: "minecraft:purpur_block"
+					id: "32FC0EE10A39BDC3"
+					structure: "bosses_of_mass_destruction:obsidilith_arena"
+					title: "Найти &5Арену Обсидилита"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:end_portal_frame"
+					id: "1A53B1A7899ED7C5"
+					observe_type: 0
+					timer: 0L
+					title: "Обнаружьте &5Алтарь босса"
+					to_observe: "bosses_of_mass_destruction:obsidilith_end_frame"
+					type: "observation"
+				}
+				{
+					entity: "bosses_of_mass_destruction:obsidilith"
+					icon: "bosses_of_mass_destruction:obsidian_heart"
+					id: "3AC0B7C6835764AB"
+					title: "Убить &5Обсидилита"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&5Обсидилит"
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			description: [
+				"В конце &eТюремных башен&r будет &5здание с фиолетовыми флагами&r, в котором будет &cлифт к порталу босса&r."
+				""
+				"Сам же &cбосс&r будет &cвесьма сложным&r противником, поэтому &aхорошенько приготовьтесь к битве с ним&r."
+			]
+			icon: "minecells:black_bridge_flag"
+			id: "0350E42CF86B9DF0"
+			rewards: [{
+				id: "5F39BCC570D31466"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					icon: "minecells:black_bridge_dimensional_rune"
+					id: "08DED48F375121F2"
+					observe_type: 0
+					timer: 0L
+					title: "Найдите проход в &5Чёрный мост"
+					to_observe: "minecells:black_bridge_doorway"
+					type: "observation"
+				}
+				{
+					dimension: "minecells:black_bridge"
+					icon: "minecells:black_bridge_flag"
+					id: "103A2B477C59BA9F"
+					title: "Войти в &5Чёрный мост"
+					type: "dimension"
+				}
+				{
+					entity: "minecells:concierge"
+					icon: "minecells:runner_spawn_egg"
+					id: "397987914617AEFF"
+					title: "Убейте &d&lПривратника"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&d&lПривратник"
+			x: 1.8622448979591937d
+			y: 0.04591836734693544d
+		}
+		{
+			description: ["{image:ftbquests:block/loza width:200 height:100 align:1}"]
+			icon: {
+				Count: 1b
+				id: "minecells:tentacle"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5F27EC145C904AE2"
+			rewards: [{
+				id: "3D2DA95296AC3786"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Где-то на верхнем этаже &8&lТюрьмы &r вы сможете найти &aзаросли лозы&r. Активировав их с помощью &5Руны Лозы&r, вы попадете к боссу &dКоньюктивиус&r."
+			tasks: [
+				{
+					entity: "minecells:conjunctivius"
+					id: "436CA330E23B6F5D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					dimension: "minecells:insufferable_crypt"
+					icon: "minecells:insufferable_crypt_dimensional_rune"
+					id: "7EF1529A16ABCEF5"
+					title: "Войдите в &5невыносимые гробницы"
+					type: "dimension"
+				}
+			]
+			title: "&d&lКонЪюктивирус"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&n&l&o&e!!!Подробный гайд по призыву находится в прошлом квесте!!!"
+				""
+				"{image:ftbquests:block/golem width:150 height:100 align:1}"
+			]
+			id: "0C7D374F1911D0F1"
+			rewards: [{
+				id: "118CE6715DCBBAD0"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "&8&lЧернитного голема&r можно призвать только с помощью &6ритуала голема&r, находясь в &4Нижнем мире"
+			tasks: [{
+				entity: "adventurez:stone_golem"
+				icon: "adventurez:stone_golem_heart"
+				id: "7493DE6686E938BB"
+				title: "Убить &8Чернитного голема"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Убить &8Чернитного голема"
+			x: -1.5d
+			y: 2.25d
+		}
+		{
+			description: ["&4&lСекретный квест в ветке Энд"]
+			hide: true
+			hide_details_until_startable: true
+			id: "19EA995A8968CDE0"
+			rewards: [{
+				id: "79062006F7612A1B"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				entity: "adventurez:void_shadow"
+				icon: "adventurez:shadow_chest_block"
+				id: "088AFD8C6C01253D"
+				title: "Убить &4&l???"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.75d
+			y: 2.25d
+		}
+		{
+			description: [
+				"Убейте &5&lДракона&r и получите его голову"
+				""
+				"В данной сборке &5&lЭндер Дракон&r усложнен, будьте аккуратнее"
+			]
+			id: "273AD357D719B752"
+			rewards: [{
+				id: "4D1A9C39128AE2E2"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "648FA8EAE4A33C35"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "Убейте &5&lЭндер дракона"
+			x: 1.5d
+			y: 2.25d
+		}
+		{
+			id: "77610A08F6E3C4F7"
+			rewards: [{
+				id: "7345D463BCA390CE"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Обитает под землёй в &aНадземном мире&r."
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "minecraft:sculk_sensor"
+				id: "54F5D654D7DB8E2E"
+				title: "Убейте вардена"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&lБоссфайт:&r &3Варден"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			description: ["Убейте &e&lПризывателя&r и получите &b&lпервичную сущность"]
+			id: "34B3F6EA969889AD"
+			rewards: [{
+				id: "2E15E7779D5A8940"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "4F28F77AB5F63578"
+				item: "illagerinvasion:primal_essence"
+				type: "item"
+			}]
+			title: "&b&lПервичная сущность"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Чтобы призвать &4&lБосса&r нужно расположить &4&lостанки&r как на скрине и нажать ПКМ &4&lкровью&r по &4&lалтарю"
+				"{image:ftbquests:block/grave width:400 height:200 align:1}"
+			]
+			id: "3A5F828612115E79"
+			rewards: [{
+				id: "1077B155353425B2"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "graveyard:lich"
+				icon: "graveyard:white_bone_staff"
+				id: "44EB8CA7ACFA306B"
+				title: "убить &4&lИспорченного Чемпиона"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4&lУжас во плоти"
+			x: 1.5d
+			y: 6.75d
+		}
+		{
+			description: ["Структура с боссом спавнится в аду"]
+			hide_dependency_lines: true
+			icon: "soulsweapons:cracked_infused_blackstone"
+			id: "597A634C4F61973E"
+			rewards: [{
+				id: "38F2751F4CDB2BF9"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Вот король, который потерял все, покончит со своим ложным правлением и выйдет победителем."
+			tasks: [{
+				entity: "soulsweapons:accursed_lord_boss"
+				id: "1913F750461110B4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&c&lСмерть короля.."
+			x: -1.5d
+			y: 6.75d
+		}
+		{
+			icon: "soulsweapons:lord_soul_rose"
+			id: "54B1A7621AE02A3A"
+			rewards: [{
+				id: "68D9B228B0257207"
+				type: "xp"
+				xp: 45
+			}]
+			size: 1.5d
+			subtitle: "Могущественная душа, находившаяся под контролем темной силы, и чистый лунный камень, излучающий мощную энергию. Но разве мы не могли сделать ничего другого?"
+			tasks: [
+				{
+					entity: "soulsweapons:remnant"
+					id: "56DFB164A8218A42"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "soulsweapons:dark_sorcerer"
+					id: "6B3A3CC9A4949C82"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "soulsweapons:returning_knight"
+					id: "4479F7ADE6125A12"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&5&lПадшая марионетка"
+			x: -3.9642857142857153d
+			y: 4.866071428571452d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: ["Для призыва кликните ПКМ &l&9&lСущностью сумерек&r по &9&lДревнему алтарю Луны&r"]
+			icon: "soulsweapons:lord_soul_white"
+			id: "1F1B0644965E6635"
+			rewards: [{
+				id: "103D611C3229FECC"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.5d
+			subtitle: "Вы вернули павшему рыцарю его законное тело и теперь встретились с ним в его былой славе."
+			tasks: [{
+				entity: "soulsweapons:moonknight"
+				id: "6FB0066E730762C0"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6&lВозмездие"
+			x: -6.0d
+			y: 10.5d
+		}
+		{
+			icon: "soulsweapons:lord_soul_dark"
+			id: "09B70FF7D364D0C8"
+			rewards: [{
+				id: "7AE8B139726031C4"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.5d
+			subtitle: "Мощная душа великого чемпиона и могущественная сущность призрака. Вы освободили мертвых, и теперь они вернулись на землю, чтобы отдохнуть."
+			tasks: [
+				{
+					entity: "soulsweapons:night_shade"
+					id: "54CCD79B60D6AAFD"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "soulsweapons:draugr_boss"
+					id: "641BEDC5D322CDB9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&5&lЭкзорцизм"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "soulsweapons:chaos_robes"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "06E6B0DF6A6208BF"
+			rewards: [{
+				id: "555058F4A9410D0F"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.5d
+			subtitle: "Опасный монстр, вызванный с пьедестала с помощью осколка, разложит все, по чему идет, — Монарх Хаоса. Убейте его и получите его личное снаряжение."
+			tasks: [{
+				entity: "soulsweapons:chaos_monarch"
+				id: "50D811394EBE75CA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a&lЗапах разложения уже близко.."
+			x: -3.75d
+			y: 8.25d
+		}
+	]
+	title: "&4&lBOSSES"
+}

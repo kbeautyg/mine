@@ -3,22 +3,17 @@ world/
 logs/
 crash-reports/
 *.log
-forge-*.jar
-minecraft_server.*.jar
 
-# Конфигурационные файлы с данными
+# Конфигурационные файлы с данными игроков
 banned-ips.json
 banned-players.json
 ops.json
 usercache.json
 whitelist.json
 
-# Библиотеки Forge
-libraries/
-
 # Временные файлы
 *.tmp
 *.bak
-
-
+.DS_Store
+Thumbs.db
 

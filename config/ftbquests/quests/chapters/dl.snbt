@@ -1,0 +1,722 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dl"
+	group: "28A047DAEA79CB0D"
+	icon: "minecraft:enchanted_golden_apple"
+	id: "1B0F61D130DD762F"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:textures/shapes/octagon/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:textures/shapes/octagon/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:textures/shapes/octagon/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:textures/shapes/octagon/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:textures/shapes/octagon/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:textures/shapes/hexagon/outline.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:textures/shapes/octagon/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -2.0d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&eНайдите все &dигрушки&e и &aсдайте*&e их&r."
+				""
+				"&d&lЭндер дракон -> игрушка дракона"
+				""
+				"&eИз сундуков:"
+				""
+				"&2&lХрам джунглей -> игрушки &fпанды&2 и &6оцелота&r"
+				""
+				"&e&lЗакопанное сокровище -> игрушка &3кальмара"
+				""
+				"&f&lИглу -> игрушки &bснежной&f и &6обычной лисы"
+				""
+				"&a&lДом деревенского пастуха -> игрушка &fовцы"
+				""
+				"&a&lДом деревенского кожевника -> игрушка &6коровы"
+				""
+				"&a&lДом деревенского мясника -> игрушка &cсвиньи"
+				""
+				"&a&lДом деревенского лучника -> игрушка &eкурицы"
+				""
+				""
+				"&8&o*Нажмите на нужный вам ресурс в окне квеста и подтвердите действие."
+			]
+			icon: "clutter:sheep_plushie"
+			id: "15326882AD42447C"
+			rewards: [{
+				id: "2C895B9049789A7D"
+				item: "artifacts:mimic_spawn_egg"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					consume_items: true
+					id: "1DA097DB3B57F467"
+					item: "clutter:sheep_plushie"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "515B906181FBF315"
+					item: "clutter:cow_plushie"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "20A50D62F0CDBDB4"
+					item: "clutter:pig_plushie"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "43EF2E9DA1F9FE46"
+					item: "clutter:squid_plushie"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3281D7BB97874D2E"
+					item: "clutter:chicken_plushie"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "024A214CACE07398"
+					item: "clutter:fox_plushie"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "730B6D8284CF6837"
+					item: "clutter:snow_fox_plushie"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "656E6689AFACC933"
+					item: "clutter:ocelot_plushie"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3CBCFDF36D8DFF77"
+					item: "clutter:panda_plushie"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "31EF570C71679675"
+					item: "clutter:ender_dragon_plushie"
+					type: "item"
+				}
+			]
+			title: "&d&o&lИгрушки!"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"О, а Вы богаты, как я посмотрю..."
+				""
+				""
+				"&4&l&nПредметы будут удалены из Вашего инвентаря!*"
+				""
+				"&8&o*Нажмите на нужный вам ресурс в окне квеста и подтвердите действие."
+			]
+			icon: "minecraft:gold_block"
+			id: "17B67EB9076A81B8"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "0305628CDCB2A155"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "6CE1AEE56DC1540D"
+					item: "artifacts:golden_hook"
+					type: "item"
+				}
+				{
+					id: "0468C024E3D01E20"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					consume_items: true
+					id: "23A09CD6C6EC021E"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5B4C2E08BBE210B4"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "365EB08107557D87"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6DF0B829F0A348B9"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "089A8D2A936CA22B"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0B18A8F3B37962DA"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "71309B6A41148FE5"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "482940D82BEFBA46"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "40A74F55FD5DCDB1"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&5Излишняя роскошь"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Пустил слезу как вспомнил о Спарте..."
+				""
+				"(до этого нужно выполнить все квесты (с мотыгой в \"Основах\")"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "10A253F64629018F"
+			rewards: [
+				{
+					id: "5B6679CC430E68F9"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 2
+					id: "0AFDA1D843CC26B3"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "7991FE05388994D0"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7238F2E4185BBB40"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&5&lСомневаюсь, что тебе нужно вспахать поле Леонида... "
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "minecells:tentacle"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "49EB432F51964361"
+			rewards: [
+				{
+					id: "0D7F1D7E77713846"
+					item: {
+						Count: 1b
+						id: "icarus:discords_wings"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "063EA50B12868BD4"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "3D48637B14FD8729"
+					item: "artifacts:mimic_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "76D6673B279EDB2D"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				entity: "minecells:conjunctivius"
+				icon: {
+					Count: 1b
+					id: "minecells:tentacle"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4A8247E9DB4E3B67"
+				title: "Убить &d&lКонъюктивируса&r 10 раз"
+				type: "kill"
+				value: 10L
+			}]
+			title: "&e&lКатаракта"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "minecells:runner_spawn_egg"
+			id: "00D55B7CA9DD9328"
+			rewards: [
+				{
+					id: "22BEBAB41994A47B"
+					item: {
+						Count: 1b
+						id: "icarus:flandres_wings"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "17B7B6A8F8D0E1F1"
+					type: "xp_levels"
+					xp_levels: 45
+				}
+				{
+					id: "7F7E2B5C333487A5"
+					item: "artifacts:mimic_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "1CC122981FB7C584"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				entity: "minecells:concierge"
+				icon: "minecells:runner_spawn_egg"
+				id: "63B1755E6D041EB4"
+				title: "Убить &d&lПривратника&r 10 раз"
+				type: "kill"
+				value: 10L
+			}]
+			title: "&e&lТаран"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			description: ["&8&oНу или &e3 игровых дня&8..."]
+			icon: "minecraft:iron_ingot"
+			id: "628952C38DCC9671"
+			rewards: [
+				{
+					count: 16
+					id: "296B601C883CC63A"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "081C8D5C90281115"
+					item: "minecraft:iron_ingot"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "6424AA70C486DED0"
+					item: {
+						Count: 1b
+						id: "vinery:red_wine"
+						tag: {
+							Year: 0
+						}
+					}
+					random_bonus: 9
+					type: "item"
+				}
+				{
+					count: 16
+					id: "03B93962C0C7DCDA"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				icon: "minecraft:clock"
+				id: "4F6CA29BF658A338"
+				stat: "minecraft:total_world_time"
+				type: "stat"
+				value: 72000
+			}]
+			title: "&d&lЧас в мире!"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["628952C38DCC9671"]
+			description: ["&8&oНу или &e36 игровых дня&8..."]
+			icon: "minecraft:gold_ingot"
+			id: "5C4BB626CCF6EF01"
+			rewards: [
+				{
+					id: "427006A5CAB47A81"
+					item: {
+						Count: 1b
+						id: "netherdepthsupgrade:soul_sucker_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:soul_speed"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "70AE41051F99927D"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				icon: "minecraft:clock"
+				id: "32E2B6672E39B96B"
+				stat: "minecraft:total_world_time"
+				type: "stat"
+				value: 864000
+			}]
+			title: "&d&l12 часов в мире!"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5C4BB626CCF6EF01"]
+			description: ["&8&oНу или &e33.3(3) часа&8..."]
+			hide: false
+			icon: "minecraft:diamond"
+			id: "1DF436F14F366430"
+			rewards: [
+				{
+					id: "518A9DBB80BA974C"
+					item: {
+						Count: 1b
+						id: "mcda:heros_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F1FE137BC5149D2"
+					item: {
+						Count: 1b
+						id: "mcda:heros_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "576739B1729471F3"
+					item: {
+						Count: 1b
+						id: "mcda:heros_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "629E0F3F8229B94E"
+					item: {
+						Count: 1b
+						id: "mcda:heros_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5627236F9DA62517"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				icon: "minecraft:clock"
+				id: "56EA9FCA766B9E1E"
+				stat: "minecraft:total_world_time"
+				type: "stat"
+				value: 2400000
+			}]
+			title: "&d&l100 игровых дней!"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1DF436F14F366430"]
+			description: [
+				"&a&lПоздравляю! Вы прошли сборку(надеюсь)."
+				""
+				"&c&l&oДанный квест является &eпоследним&c в сборке. Если у Вас остались &dнезаконченные дела&c - самое время &aзавершить&c их."
+				""
+				""
+				"&8&oНу или &c66,6 часов&8..."
+			]
+			icon: "minecraft:netherite_ingot"
+			id: "484341245DFD5A1F"
+			rewards: [
+				{
+					id: "32B27DECD4FC8DEA"
+					item: {
+						Count: 1b
+						id: "simplyswords:harbinger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39CC69448E7F0C15"
+					item: {
+						Count: 1b
+						id: "simplyswords:sunfire"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				icon: "minecraft:clock"
+				id: "1B6532E1B13635AC"
+				stat: "minecraft:total_world_time"
+				type: "stat"
+				value: 4800000
+			}]
+			title: "&c&l200 ИГРОВЫХ ДНЕЙ"
+			x: -0.5d
+			y: -6.5d
+		}
+	]
+	title: "&d&lИспытания"
+}

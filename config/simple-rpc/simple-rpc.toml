@@ -1,0 +1,254 @@
+
+#General Config Section.
+[general]
+	#The Application ID of the Discord App to use
+	applicationID = 1217926498808500344
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Включить/отключить экран конфигурации игры. ДОСТУПНО ТОЛЬКО ЕСЛИ УСТАНОВЛЕНА ТКАНЬНАЯ КОНФИГУРАЦИЯ!
+	configScreen = true
+	#Отображение значка и имени пакета вместо LargeImage из совместимых программ запуска. НЕ РАБОТАЕТ С СОБСТВЕННЫМИ ПРИЛОЖЕНИЯМИ! ТОЛЬКО ПО УМОЛЧАНИЮ!
+	launcherIntegration = false
+	#Internal Version Number. NO TOUCHY!
+	version = 18
+
+#The Game Loading event
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+	#The first line of text under the app name
+	description = ""
+	#The second line of text under the app name
+	state = "Запуск игры..."
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["mclogo"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Играет через лаунчер Аркании."
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["%smallgiflogo%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Сборка из %mods% модов."
+	#The buttons to display on Discord
+	buttons = []
+
+#The Main Menu event
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Находится в главном меню"
+	#The seconds line of text under the app name
+	state = ""
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["mclogo"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Играет через лаунчер Аркании."
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["%smallgiflogo%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Сборка из %mods% модов."
+	#The buttons to display on Discord
+	buttons = []
+
+#The Server List event
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+	#Первая строка активности
+	description = "Просматривает список серверов.."
+	#Ещё одно поле куда можно что-то вписать без плейсхолдеров
+	state = ""
+	#Ссылка или AssetID из dsapplication - Можно гиф, но только ссылкой - БОЛЬШАЯ картинка
+	largeImageKey = ["mclogo"]
+	#Что будет написано на большой картинке при наведении
+	largeImageText = "Играет через лаунчер Аркании."
+	#Ссылка или AssetID из dsapplication - Можно гиф, но только ссылкой - МАЛЕНЬКАЯ картинка
+	smallImageKey = ["%smallgiflogo%"]
+	#Что будет написано на маленькой картинке при наведении
+	smallImageText = "Сборка из %mods% модов."
+	#Показывает кнопки в дискорде - Максимум 2
+	buttons = []
+	
+#The Realms Screen event
+[realms_list]
+	#ВКЛ/ВЫКЛ это
+	enabled = true
+	#Первая строка
+	description = "Просматривает сервера Realms.."
+	#Ещё одно поле куда можно что-то вписать без плейсхолдеров
+	state = ""
+	#Ссылка или AssetID из dsapplication - Можно гиф, но только ссылкой - БОЛЬШАЯ картинка
+	largeImageKey = ["mclogo"]
+	#Что будет написано на большой картинке при наведении
+	largeImageText = "Играет через лаунчер Аркании."
+	#Ссылка или AssetID из dsapplication - Можно гиф, но только ссылкой - МАЛЕНЬКАЯ картинка
+	smallImageKey = ["%smallgiflogo%"]
+	#Что будет написано на маленькой картинке при наведении
+	smallImageText = "Сборка из %mods% модов."
+	#Показывает кнопки в дискорде - Максимум 2
+	buttons = []
+	
+#The Join Game Event
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Присоединяется к игре.."
+	#Ещё одно поле куда можно что-то вписать без плейсхолдеров
+	state = ""
+	#Ссылка или AssetID из dsapplication - Можно гиф, но только ссылкой - БОЛЬШАЯ картинка
+	largeImageKey = ["mclogo"]
+	#Что будет написано на большой картинке при наведении
+	largeImageText = "Играет через лаунчер Аркании."
+	#Ссылка или AssetID из dsapplication - Можно гиф, но только ссылкой - МАЛЕНЬКАЯ картинка
+	smallImageKey = ["%smallgiflogo%"]
+	#Что будет написано на маленькой картинке при наведении
+	smallImageText = "Сборка из %mods% модов."
+	#Показывает кнопки в дискорде - Максимум 2
+	buttons = []
+
+#The Single Player Event
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Играет в одиночную игру.."
+	#Ещё одно поле куда можно что-то вписать без плейсхолдеров
+	state = "Дней в мире: %day%"
+	#Ссылка или AssetID из dsapplication - Можно гиф, но только ссылкой - БОЛЬШАЯ картинка
+	largeImageKey = ["mclogo"]
+	#Что будет написано на большой картинке при наведении
+	largeImageText = "Играет через лаунчер Аркании."
+	#Ссылка или AssetID из dsapplication - Можно гиф, но только ссылкой - МАЛЕНЬКАЯ картинка
+	smallImageKey = ["%smallgiflogo%"]
+	#Что будет написано на маленькой картинке при наведении
+	smallImageText = "Сборка из %mods% модов."
+	#Показывает кнопки в дискорде - Максимум 2
+	buttons = []
+	
+#The Multi Player Event
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Играет в мультиплеер.."
+	#The second line of text under the app name
+	state = "Дней в мире: %day%"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["mclogo"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Играет через лаунчер Аркании."
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["%smallgiflogo%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Сборка из %mods% модов."
+	#The buttons to display on Discord
+	buttons = []
+
+#The Realms Game Event
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Играет на сервере %realmname%"
+	#The second line of text under the app name
+	state = "Дней в мире: %day%"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["mclogo"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Играет с помощью Realms."
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["%smallgiflogo%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%realmdescription%"
+	#The buttons to display on Discord
+	buttons = []
+
+#Fallback event for disabled events
+[generic]
+	#The first line of text under the app name
+	description = "Играет в Minecraft"
+	#The second line of text under the app name
+	state = ""
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["mclogo"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Minecraft1 %mcver%"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["%smallgiflogo%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Сборка из %mods% модов."
+	#The buttons to display on Discord
+	buttons = []
+
+#Custom Config Variables that you can use
+[custom]
+	#Must these variables be parsed along with other variables
+	enabled = true
+	#Your custom variables to add
+    [[custom.variables]]
+        name = "smallgiflogo"
+        value = "https://cdn.discordapp.com/icons/1154774831481487410/a_e0324cb51c41a11c7049f5b83ff50070.gif?size=512"
+		
+#Dimension Information Overrides
+[dimension_overrides]
+	#Allows you to override the displayed values for dimensions
+	enabled = false
+
+	#The Dimensions to override
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "overworld"
+		#The first line of text under the app name
+		description = "%player% is in The Overworld"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ["overworld"]
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "In the Overworld"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = ["mclogo"]
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "the_nether"
+		#The first line of text under the app name
+		description = "%player% is in The Nether"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ["nether"]
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "In the Nether"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = ["mclogo"]
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "the_end"
+		#The first line of text under the app name
+		description = "%player% is in The End"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ["end"]
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "In the End"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = ["mclogo"]
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+

@@ -1,0 +1,1470 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aquamirae"
+	group: "7B731D9853D1E8C6"
+	icon: "aquamirae:rune_of_the_storm"
+	id: "3C15561A2B229B0F"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 7.0d
+			hover: [ ]
+			image: "ftbquests:block/boss1"
+			rotation: 0.0d
+			width: 8.338235294117647d
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "aquamirae:item/maze_rose"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "aquamirae:block/elodea"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "aquamirae:item/treasure_pouch"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "aquamirae:textures/gui/perk.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.0d
+			hover: [ ]
+			image: "aquamirae:textures/mob_effect/crystallization.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "aquamirae:textures/mob_effect/crystallization.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.0d
+			y: -3.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "aquamirae:block/oxygelium_bud_rare"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/mob_effect/bad_omen.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "aquamirae:item/three_bolt_helmet"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -4.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/mob_effect/poison.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/mob_effect/poison.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "aquamirae:block/oxygelium_bud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "aquamirae:item/sharp_bones"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "aquamirae:item/sharp_bones"
+			rotation: 120.0d
+			width: 1.0d
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "aquamirae:item/sharp_bones"
+			rotation: 120.0d
+			width: 1.0d
+			x: -7.25d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "aquamirae:item/sharp_bones"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "minecraft:block/sweet_berry_bush_stage3"
+			rotation: 0.0d
+			width: 1.5d
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "aquamirae:item/echo"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "aquamirae:item/fin_cutter"
+			rotation: 100.0d
+			width: 1.0d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "aquamirae:item/pirate_pouch"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.0d
+			y: 0.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7412C17ED346CAEF"
+				"7459E27D80BEE9F7"
+			]
+			description: [
+				"Очень приятный предмет, позволяющий быстрее плавать в небольшой области вокруг него."
+				""
+				"Чтобы его поставить нажмите ПКМ"
+			]
+			id: "44254C40E1F880F5"
+			rewards: [
+				{
+					id: "2E1DFA4DD61C50C7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "222FA919257BFA58"
+					item: "aquamirae:oxygen_tank"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "19CC8AFD098A4841"
+				item: "aquamirae:luminescent_bubble"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6B5783AC4B87D000"]
+			description: ["Выпадает из &bводорослей"]
+			id: "7412C17ED346CAEF"
+			rewards: [
+				{
+					id: "5CFE868C159BA7C5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "78B3626945261B10"
+					item: "aquamirae:oxygelium"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "371230C9F1B1AFD2"
+				item: "aquamirae:oxygelium"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6B5783AC4B87D000"]
+			description: [
+				"Выпадает из &1Удильщика"
+				""
+				"&1Удильщик&r - новый моб, который спавнится в воде &b&lбиома"
+			]
+			id: "7459E27D80BEE9F7"
+			rewards: [
+				{
+					id: "4B5AFE038108D943"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "58D85A013099E837"
+					item: "aquamirae:esca"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7D7C504314F72581"
+				item: "aquamirae:esca"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			description: ["Найдите новый биом удивительного мода &b&laquamirae"]
+			id: "6B5783AC4B87D000"
+			rewards: [{
+				id: "48343E6A407FF144"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				biome: "#aquamirae:ice_maze"
+				icon: "minecraft:blue_ice"
+				id: "2139A0D8F4E2FC1A"
+				title: "&b&lЛедяные массивы"
+				type: "biome"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B5783AC4B87D000"]
+			description: [
+				"Выпадает из &1Пасти&r или &1Удильщика&r."
+				""
+				"&1Пасть&r - новый моб, который спавинится ночью в &b&lбиоме льда"
+				""
+				"&1Удильщик&r - новый моб, который спавнится в воде &b&lбиома"
+			]
+			id: "59557236C92FCE34"
+			rewards: [
+				{
+					id: "0FB9B3C309F7F570"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "4768F066FB21C912"
+					item: "aquamirae:fin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "715991B96BBD873F"
+				item: "aquamirae:fin"
+				type: "item"
+			}]
+			title: "&bПлавник"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B5783AC4B87D000"]
+			description: ["Выпадает из &1Удильщика&r."]
+			id: "2700359D1BD58D89"
+			rewards: [
+				{
+					id: "54E89ACAA5DA9B9F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "441E7161E5EE08C9"
+					item: "aquamirae:anglers_fang"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7BD76D4B54744B1A"
+				item: "aquamirae:anglers_fang"
+				type: "item"
+			}]
+			title: "&aЯдовитый клык"
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2700359D1BD58D89"]
+			description: ["Нажмите шифт когда смотрите на предмет для информации"]
+			id: "51BFE84802218F23"
+			rewards: [
+				{
+					id: "2B69E5499ECF8F43"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0AE28FB8F8575119"
+					item: "aquamirae:sea_stew"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2ECFAAFD378BCD7E"
+				item: {
+					Count: 1b
+					id: "aquamirae:poisoned_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a&lОтравляющий клинок"
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2700359D1BD58D89"]
+			description: ["Нажмите шифт когда смотрите на предмет для информации"]
+			id: "5C11EEA165542E19"
+			rewards: [
+				{
+					id: "15EA85B3CBA1E647"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7424632D9836F246"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A32EF88546117E5"
+				item: {
+					Count: 1b
+					id: "aquamirae:terrible_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&c&lУжасающий меч"
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6B5783AC4B87D000"]
+			description: ["Интересный меч, с помощью которого можно фармить &2изумруды&r, но при атаке &6жителей&r есть шанс на &4дурное знамение"]
+			id: "467E5B6F1BBC245E"
+			rewards: [
+				{
+					id: "7AAB636DF143B19D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1820EC627FACFE88"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C139BBD55C9C8A1"
+				item: {
+					Count: 1b
+					id: "aquamirae:dagger_of_greed"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&5Кинжал Жадности"
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6B5783AC4B87D000"]
+			description: [
+				"Делается из &lособых костей&r, которые можно найти в &nданжах этого мода"
+				""
+				"Очень полезна для &bдраки под водой"
+			]
+			id: "557F00FA19DC778A"
+			rewards: [
+				{
+					id: "0430F8CEE5B7CAE6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3A98380DBBAD362F"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_water_breathing"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "514F743A73C75AD8"
+				item: {
+					Count: 1b
+					id: "aquamirae:remnants_saber"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&8&lМёртвая сабля"
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6B5783AC4B87D000"]
+			description: [
+				"Нужна для призыва &4&lбосса"
+				"Для активации нужно находится рядом с &bокеаном"
+				""
+				"Выбивается из &8&lразбойника&r, который держит её в руках. Спавнится такой в &4некоторых данжах мода"
+			]
+			id: "53D92A2F8321B044"
+			rewards: [
+				{
+					id: "64E43CB292C64956"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "165BA8895D3C4A44"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "65AB68080F876DF0"
+					item: "aquamirae:sea_stew"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "63F8B2E2824BC514"
+				item: "aquamirae:shell_horn"
+				type: "item"
+			}]
+			title: "&5&lИнтересная раковина"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"53D92A2F8321B044"
+				"7412C17ED346CAEF"
+			]
+			description: [
+				"Шлем выпадает из &4&lбосса&r. Вместе с нагрудником позволяет &bдышать под водой"
+				""
+				"Фулл сет защищает от &bхолода"
+			]
+			icon: {
+				Count: 1b
+				id: "aquamirae:three_bolt_suit"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2C19739627AE810D"
+			rewards: [{
+				id: "399FFBA0290425E7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "3C7FD0AE59E475AA"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "099B51B74839C708"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C5A96FDCD951EDE"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DE9D4B5E242A830"
+					item: {
+						Count: 1b
+						id: "aquamirae:three_bolt_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&b&lТрёхболтовая броня"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["53D92A2F8321B044"]
+			description: [
+				"Нужен чтобы открыть &bзамороженные сундуки&r с &eценным лутом в &4убежище&r."
+				""
+				"Падает с &4босса"
+			]
+			id: "2ADC4502304E8AA5"
+			rewards: [
+				{
+					id: "4475387D9E6DB1C5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0A1A43D6BBAA792C"
+					item: {
+						Count: 1b
+						id: "vinery:cherry_wine"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7671F02BC7C52C7D"
+				item: "aquamirae:frozen_key"
+				type: "item"
+			}]
+			title: "&b&lКлючик"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2ADC4502304E8AA5"
+				"5800791E32C40E05"
+			]
+			description: [
+				"&e&lУвеличивает Ваш урон&r когда находится в левой руке."
+				""
+				"&b&lРаботает только в холодных биомах"
+				""
+				"Можно найти в &bзамороженных сундуках"
+			]
+			id: "6CA56B2A4250FF3A"
+			rewards: [{
+				id: "17D61F88230EDD4E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "24ABBE4CCE89C782"
+				item: "aquamirae:rune_of_the_storm"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["53D92A2F8321B044"]
+			description: [
+				"Падает с &1угря&r и &4босса&r"
+				""
+				"Нужна для крафта крутых вещей"
+			]
+			id: "0FD4D5B10F91BFD2"
+			rewards: [
+				{
+					id: "631D96A47B689F18"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "2180EC3AC8077DC2"
+					item: "aquamirae:ship_graveyard_echo"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "321BCC5389C6C148"
+				item: "aquamirae:ship_graveyard_echo"
+				type: "item"
+			}]
+			title: "&b&lКрик утопающих"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["53D92A2F8321B044"]
+			description: [
+				"С &4босса&r падает карта, указывающая на &6интересное строение."
+				""
+				"&o&8Будьте аккуратнее, ведь у него есть страж"
+			]
+			id: "5800791E32C40E05"
+			rewards: [
+				{
+					id: "7B7BBC231AA16B39"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "598DB3DD83325CEF"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:map"
+				id: "466BB6F20C1A3277"
+				structure: "aquamirae:shelter"
+				title: "&b&lУбежище"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0FD4D5B10F91BFD2"
+				"2700359D1BD58D89"
+				"59557236C92FCE34"
+			]
+			description: ["Мощная броня, дающая вам преимущество &bпод водой"]
+			icon: {
+				Count: 1b
+				id: "aquamirae:terrible_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "533732CA1FCDED6C"
+			rewards: [{
+				id: "22B4DF128C2AD4B9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "4128260E86256141"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "362C1B8D142D59C6"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D288CDA225C84F7"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49855578993628"
+					item: {
+						Count: 1b
+						id: "aquamirae:terrible_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&b&lУжасающий сет"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0FD4D5B10F91BFD2"]
+			description: ["Материал для создания &d&lлучшего снаряжения из мода &b&lAquamirae"]
+			id: "527698C38BC952B7"
+			rewards: [
+				{
+					count: 4
+					id: "182F9BF3458C974A"
+					item: "obscure_api:astral_dust"
+					type: "item"
+				}
+				{
+					id: "69BCD7F3E4425F75"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "7F9905B122D0B351"
+				item: "aquamirae:abyssal_amethyst"
+				type: "item"
+			}]
+			title: "&d&lАметист"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["527698C38BC952B7"]
+			description: [
+				"Мега крутой меч"
+				""
+				"&8&oНажмите шифт при осмотре предмета для подробностей"
+			]
+			id: "4603607A84525A68"
+			rewards: [
+				{
+					id: "7E1C19A745BC3D67"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "20D686D23CA19F19"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "46876C8867BA32A1"
+				item: {
+					Count: 1b
+					id: "aquamirae:divider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&d&lРассекатель"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["527698C38BC952B7"]
+			description: [
+				"Оружие с внушительным уроном"
+				""
+				"&8&oНажмите шифт при осмотре предмета для подробностей"
+			]
+			id: "7B046437CBE33B45"
+			rewards: [
+				{
+					id: "10AC16EC506A6992"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "47407B96801091AE"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3FF43F81826D5761"
+				item: {
+					Count: 1b
+					id: "aquamirae:whisper_of_the_abyss"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&d&lШепот Бездны"
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["527698C38BC952B7"]
+			description: [
+				"Самый крутой сет брони. &d&lБонус комплекта зависит от выбранного шлема"
+				""
+				"&8&oНажмите шифт при осмотре предмета для подробностей"
+			]
+			icon: {
+				Count: 1b
+				id: "aquamirae:abyssal_brigantine"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5EF0E3F52A5B01EB"
+			rewards: [
+				{
+					id: "677021CBA83AAD7E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "42775EAC16EE5003"
+					item: "aquamirae:abyssal_amethyst"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "295FAD97D7BA1168"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_brigantine"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BA5F87E0189A1F4"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57E475D810850852"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&d&lСет Бездны"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5EF0E3F52A5B01EB"]
+			description: [
+				"&6&lОбманите смерть!"
+				""
+				"&8&oНажмите шифт при осмотре предмета для подробностей"
+			]
+			id: "7283FE88896A3DCE"
+			rewards: [
+				{
+					id: "06CD320FE123CE1B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "36AF8FEC1F99A5F8"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B4DE494ED2894BD"
+				item: {
+					Count: 1b
+					id: "aquamirae:abyssal_heaume"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&d&lПобег от смерти"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5EF0E3F52A5B01EB"]
+			description: [
+				"&6&lОслепит ваших врагов!"
+				""
+				"&3&lСоздаёт вокруг вас поле, которое ослепляет врагов"
+				""
+				"&8&oНажмите шифт при осмотре предмета для подробностей"
+			]
+			id: "1393AD2694DCBD1B"
+			rewards: [
+				{
+					id: "41BBBF6C2812BF3A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3CA6A44C2F4E0C6A"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3EE251A36E32D56C"
+				item: {
+					Count: 1b
+					id: "aquamirae:abyssal_tiara"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&d&lОслепляющая красота"
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2700359D1BD58D89"]
+			description: ["Призывает чакрам, который будет летать вокруг вас и дамажить врагов по 3 урона"]
+			id: "441613F6E89A4C2C"
+			rewards: [
+				{
+					id: "28A355F40E6212FF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7295751F8443BF02"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_turtle_master"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "670ABFD7B6DE4C95"
+				item: {
+					Count: 1b
+					id: "aquamirae:poisoned_chakra"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "obscure_api:distance"
+								lvl: 3s
+							}
+							{
+								id: "obscure_api:fast_spin"
+								lvl: 5s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["527698C38BC952B7"]
+			description: ["Более лучший чакрам. Обладает большим уроном и временем жизни."]
+			id: "67EF9FE188845317"
+			rewards: [
+				{
+					id: "619359D790DC44E3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5CE5B2FF3DE9B073"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "45DE33BC97886AE4"
+				item: {
+					Count: 1b
+					id: "aquamirae:maze_rose"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "obscure_api:distance"
+								lvl: 3s
+							}
+							{
+								id: "obscure_api:fast_spin"
+								lvl: 5s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["53D92A2F8321B044"]
+			description: ["Используйте, чтобы получить случайный эффект, предмет или событие"]
+			id: "373957E6DA62997A"
+			rewards: [
+				{
+					id: "45B85B5750EBCC85"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "5531E0BB0C0EEE15"
+					item: "aquamirae:dead_sea_scroll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C4A3710FD5969AA"
+				item: "aquamirae:dead_sea_scroll"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7412C17ED346CAEF"
+				"7459E27D80BEE9F7"
+			]
+			description: ["Небольшой буст Вашего урона."]
+			id: "6628431198F9AA9A"
+			rewards: [
+				{
+					id: "1729C0B1830FA893"
+					item: "aquamirae:sea_casserole"
+					type: "item"
+				}
+				{
+					id: "6160AC6E931CBA90"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "3AC82EC57DC32186"
+				item: "aquamirae:sea_casserole"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"7412C17ED346CAEF"
+				"7459E27D80BEE9F7"
+			]
+			description: ["Очень хороший бафф перед любым боем."]
+			id: "5B0E1BEBD12424F4"
+			rewards: [
+				{
+					count: 4
+					id: "6762628CA25F024E"
+					item: "aquamirae:fin"
+					type: "item"
+				}
+				{
+					id: "1F1AFA89170E32DC"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "4C8BD53A733F9357"
+				item: "aquamirae:sea_stew"
+				type: "item"
+			}]
+			title: "&bМорское рагу"
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5B0E1BEBD12424F4"]
+			description: [
+				"Дорогое, но очень сильное по эффектам блюдо."
+				""
+				"&8&oСокращает перезарядку ВСЕХ предметов на 50%, помимо других эффектов"
+			]
+			id: "3C07E4E19E45D1DA"
+			rewards: [
+				{
+					id: "766C923C5C13A8E9"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "6F7D8828D9FFABA9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "14F41623D551BDA4"
+				item: "aquamirae:poseidons_breakfast"
+				type: "item"
+			}]
+			title: "&b&lПища богов"
+			x: -11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6B5783AC4B87D000"]
+			description: [
+				"Гигантское существо, похожее на ската, с россыпью аметистов на спине."
+				""
+				"Спавнится под водой с небольшим шансом."
+				""
+				"&o&8Когда появится мини-босс, все находящиеся поблизости игроки получат сообщение в чате."
+			]
+			icon: "aquamirae:abyssal_amethyst"
+			id: "2B4CD1DA95CE5597"
+			rewards: [
+				{
+					id: "5431CE8C23EA6A3B"
+					item: "aquamirae:abyssal_amethyst"
+					type: "item"
+				}
+				{
+					id: "71D4CFA372924C99"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "409BA492E6641209"
+					item: "aquamirae:ship_graveyard_echo"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				id: "27C07F165287A5F2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&d&lДрожь льда"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["53D92A2F8321B044"]
+			description: ["Мощное, но медленное оружие."]
+			id: "12D308222277C1A1"
+			rewards: [
+				{
+					id: "7181631841BFC868"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "787DFC62B768C15D"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6C6F0F145CC59966"
+				item: {
+					Count: 1b
+					id: "aquamirae:coral_lance"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 4s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["53D92A2F8321B044"]
+			description: [
+				"Данная пика падает с Декабря по Январь с босса, вместо коралловой."
+				""
+				"&b&lС наступающим!"
+			]
+			id: "7176D14067FC1014"
+			invisible: true
+			rewards: [
+				{
+					id: "3C750783EE3CF58F"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "13C474B93FBE7E01"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "0DC8349AB1D7E359"
+				item: {
+					Count: 1b
+					id: "aquamirae:sweet_lance"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:looting"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+	]
+	title: "&b&lВодичка"
+}

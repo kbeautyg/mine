@@ -1,0 +1,896 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_nether"
+	group: "58C9F260FC75E0E6"
+	icon: "minecraft:obsidian"
+	id: "0D7FF8F037EFF568"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "illagerinvasion:block/magic_fire_1"
+			rotation: 0.0d
+			width: 0.03125d
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "illagerinvasion:block/magic_fire_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/nether_star"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "minecraft:item/netherite_upgrade_smithing_template"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.75d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "simplyswords:item/gobber_compat/nether_gobber/chakram_nether_gobber"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "simplyswords:item/gobber_compat/nether_gobber/chakram_nether_gobber"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "simplyswords:item/netherite_chakram"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "simplyswords:item/netherite_chakram"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "netherdepthsupgrade:block/warped_kelp_plant"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "netherdepthsupgrade:block/warped_kelp"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "netherdepthsupgrade:block/warped_kelp_plant"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 2.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "adventurez:textures/mob_effect/blackstoned_heart.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.75d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "adventurez:item/gilded_netherite_fragment"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.75d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 3.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1644EB6C299E4CD7"]
+			description: [
+				"&n&l&o&e!!!Подробный гайд по призыву находится в прошлом квесте!!!"
+				""
+				"{image:ftbquests:block/golem width:150 height:100 align:1}"
+			]
+			id: "3963B69A10D95565"
+			rewards: [
+				{
+					id: "5532E4E06E5D365C"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "01364D52B394EC56"
+					item: "adventurez:gilded_netherite_fragment"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "&8&lЧернитного голема&r можно призвать только с помощью &6ритуала голема&r, находясь в &4Нижнем мире"
+			tasks: [{
+				entity: "adventurez:stone_golem"
+				icon: "adventurez:stone_golem_heart"
+				id: "3CCB99D30F004CC1"
+				title: "Убить &8Чернитного голема"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Убить &8Чернитного голема"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			description: ["Добро пожаловать!"]
+			id: "3ADF122A4F212AE1"
+			rewards: [{
+				id: "0B020890F4533518"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "791892574DA917F4"
+				title: "войдите в &4&lАД"
+				type: "dimension"
+			}]
+			title: "&4&lАД"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3ADF122A4F212AE1"]
+			description: [
+				"Добудьте &cадских ресурсов&r и &eсдайте их*&r, чтобы получить ресурсы на &dпортал&r."
+				""
+				"&8&o*Нажмите на нужный вам ресурс в окне квеста и подтвердите действие."
+			]
+			icon: "minecraft:netherrack"
+			id: "66718FE003C993B5"
+			optional: true
+			rewards: [
+				{
+					count: 12
+					id: "2002B80B03175434"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "40FD4AAD5FC6EF34"
+					item: "minecraft:fire_charge"
+					type: "item"
+				}
+				{
+					id: "1ED792217BCEA026"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "0416163A0F56ABAB"
+					item: "minecraft:netherrack"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "6C034572608D4311"
+					item: { Count: 32b, id: "minecraft:soul_sand" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "705C7500BDD369C1"
+					item: { Count: 16b, id: "minecraft:quartz" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "0F83046EFB90F469"
+					item: { Count: 32b, id: "minecraft:glowstone_dust" }
+					type: "item"
+				}
+			]
+			title: "&e&lШанс на побег"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3ADF122A4F212AE1"]
+			description: ["Очень важная структура как для ваниллы, так и для нашей сборки."]
+			id: "0EC056A2D721CBCC"
+			rewards: [{
+				id: "2BD2F1698E224B91"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				icon: "minecraft:nether_bricks"
+				id: "06014E1315255B56"
+				structure: "betterfortresses:fortress"
+				title: "Посетить &c&lАдскую крепость"
+				type: "structure"
+			}]
+			title: "Посетить &c&lАдскую крепость"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3ADF122A4F212AE1"]
+			description: ["Прекрасный способ фармить &eзолото&r и &aопыт&r."]
+			icon: "minecraft:nether_gold_ore"
+			id: "2FDC154066151096"
+			rewards: [
+				{
+					count: 3
+					id: "3D03CC51DEE075B4"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "60A353C8332898B3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					count: 20L
+					id: "759509F6089EA40B"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					icon: "minecraft:nether_gold_ore"
+					id: "0EC558E10B2049FB"
+					observe_type: 0
+					timer: 0L
+					title: "Обнаружить &eзолото"
+					to_observe: "minecraft:nether_gold_ore"
+					type: "observation"
+				}
+			]
+			title: "Адское золото"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3ADF122A4F212AE1"]
+			description: ["&dОчень крепкий материал&r. В соединении с &eзолотом&r даёт возможность сделать самую лучшую броню и инструменты в &b&lванильном майнкрафте."]
+			id: "562F343442FA55CA"
+			rewards: [
+				{
+					count: 2
+					id: "01E21761ECC5D9B2"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "29E3C0B37659CE85"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "027737C2490119F0"
+				item: "minecraft:netherite_scrap"
+				title: "Крепче алмаза"
+				type: "item"
+			}]
+			title: "Крепче &b&lАлмаза"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["562F343442FA55CA"]
+			description: ["&eИспользуется в &6столе кузнеца&e вместе с &fкузнечным шаблоном&r&e для &eулучшения&r &bалмазных &eвещей&r."]
+			id: "7F73B8CC89DA8A88"
+			rewards: [
+				{
+					id: "4EC45120ABC8F425"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "6FE22F0D8CEDB076"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "53374266CF8C4D96"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "&8&lЛишь ингридиент"
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3ADF122A4F212AE1"]
+			description: ["Зловещая структура ада, которая очень богата &eресурсами&r и &cврагами&r."]
+			id: "6BAED2A02AE1B4CC"
+			rewards: [
+				{
+					id: "4C5AAA535E075BA4"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1567A9C38BD136C9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				icon: "minecraft:gilded_blackstone"
+				id: "434CA96ED53419EF"
+				structure: "minecraft:bastion_remnant"
+				title: "Найти &c&lбастион"
+				type: "structure"
+			}]
+			title: "Найти &c&l\"домик\" пиглинов"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BAED2A02AE1B4CC"]
+			description: [
+				"Шаблон, позволяюший нам сделать &8&lнезеритовое&r снаряжение."
+				""
+				"Может быть &eраздвоен&r за 7 &bалмазов&r и 1 &cнезерак&r."
+			]
+			id: "09DDD683E9600157"
+			rewards: [{
+				id: "5F27B7DFDCEA6350"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			subtitle: "Не спешите его тратить"
+			tasks: [{
+				id: "727B68E3FAEADF1E"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "&f&lКузнечный шаблон"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0EC056A2D721CBCC"]
+			description: ["Придётся &l&2чуть-чуть &rпоубивать визеров :>"]
+			id: "6655B6F4ACAF1116"
+			rewards: [{
+				count: 4
+				id: "331F9BD5B405703F"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "3EC9B0F0587A9B79"
+				item: "minecraft:wither_skeleton_skull"
+				title: "Да когда оно уже выпадет!?"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6655B6F4ACAF1116"]
+			description: ["Чтобы получить её, нужно убить &4&lВизера"]
+			id: "1B1E9F217D891082"
+			rewards: [
+				{
+					id: "56695208906B1601"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "6CFBDAB58C094812"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "56704AFDC1817C8C"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "&a&lЗвездочка&n(не мазь)"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0EC056A2D721CBCC"]
+			description: ["Для их получения нужно убить &6&lИфритов"]
+			id: "562570AA531D5811"
+			rewards: [
+				{
+					count: 4
+					id: "7A7E154E0728C124"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "1F462CCCCB8C60AE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "5D6277C8D96D6E29"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			title: "&6&lОгненные палочки"
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7F73B8CC89DA8A88"
+				"09DDD683E9600157"
+				"19E23C0E9BA5A5B1"
+			]
+			description: ["Делается из &b&lалмазной брони&r с добавлением &8&lслитка незерита&r и &f&lкузнечного шаблона&r на &a&lстоле кузнеца&r."]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4CF8C6211E6961BA"
+			rewards: [
+				{
+					id: "21735FEA5A3E5435"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "5EA50FDFF8996B07"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "788BD527410D16A0"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18093E7FC2210637"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A018DA23BE844D2"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DC981DF5EEC27A5"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&8&lНезеритовая броня"
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"7F73B8CC89DA8A88"
+				"09DDD683E9600157"
+				"19E23C0E9BA5A5B1"
+			]
+			description: ["Делается из &b&lалмазных инструментов&r с добавлением &8&lслитка незерита&r и &f&lкузнечного шаблона&r на &a&lстоле кузнеца&r."]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4BD0581B34ADA02F"
+			rewards: [
+				{
+					id: "299991489D2EB9BE"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "1B6752AD99293604"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "0073A57C3D62C3E6"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F640FB5F9092F76"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CA501EE6D8F7265"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&8&lНезеритовые инструменты"
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6BAED2A02AE1B4CC"]
+			description: [
+				"Чтобы вызвать &8&lЧернитного голема&r Вам потребуются: "
+				"1. &6&lПозолоченные чернитовые осколки&r(Выпадает с &c&lБрутальных Пиглинов)"
+				"2. Вырезать &a&lв камнерезе&r из полированного чернокамня &6&lдержатели&r"
+				"3. Найти расчищенное место из &8&lчернокамня&r, на котором расположить &nчетыре&r &6&lдержателя&r в радиусе &nпяти&r блоков, а затем вставить в них &6&lосколки."
+			]
+			icon: "adventurez:gilded_stone"
+			id: "1644EB6C299E4CD7"
+			rewards: [{
+				id: "07B78668B1B5D2E3"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "19DAC65D633D738A"
+					item: "adventurez:gilded_stone"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1F38DB4EBD7A0A19"
+					item: "adventurez:stone_holder_block"
+					type: "item"
+				}
+			]
+			title: "Подготовка к &4&lБОССУ"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4CF8C6211E6961BA"
+				"09DDD683E9600157"
+				"3963B69A10D95565"
+			]
+			description: [
+				"Делается на &a&lстоле кузнеца&r из &8&lнезеритовой брони&r, &f&lШаблона кузнеца&r и &6&lсердце Чернитного голема"
+				""
+				"Чуть прочнее &8&lнезеритовой брони&r и имеет &eпассивную способность&r - пиглины не будут вас трогать!"
+			]
+			icon: {
+				Count: 1b
+				id: "adventurez:stone_golem_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4B15E537163407FF"
+			rewards: [{
+				id: "1B1A493C8B289CA6"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3358FDBAC20A0E19"
+					item: {
+						Count: 1b
+						id: "adventurez:stone_golem_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7218D34CA3061A3D"
+					item: {
+						Count: 1b
+						id: "adventurez:stone_golem_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40CC48573219C435"
+					item: {
+						Count: 1b
+						id: "adventurez:stone_golem_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58AAC5614AE97DD7"
+					item: {
+						Count: 1b
+						id: "adventurez:stone_golem_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6&lПозолоченная &8&lнезеритовая &6&lброня"
+			x: 1.75d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7F73B8CC89DA8A88"]
+			description: [
+				"Незеритовое оружие из &cSimply Swords&r можно модифицировать на столе кузнеца в &b&lруническое&r с помощью &dрунической таблицы&r и алмаза."
+				""
+				"&o&7Оружие обладают &dуникальными способностями&7. Переложите оружие в инвентаре, чтобы &bактивировать их"
+			]
+			icon: {
+				Count: 1b
+				id: "simplyswords:runic_longsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "58B66ACD73876DC4"
+			rewards: [
+				{
+					count: 3
+					id: "1C8967AD17518606"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "21F7B0D063AD6C6E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "14A121B33D9AF176"
+				title: "&d&lРуническое оружие"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["562570AA531D5811"]
+			description: ["Сделайте &5&lзельеварку&r."]
+			icon: "minecraft:brewing_stand"
+			id: "36EAE7896653599B"
+			rewards: [
+				{
+					id: "7148F8E94D948E61"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6172FE68D6B0BC7F"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					id: "7C68A19B2C00452D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "62A0ACFBCE627486"
+					item: "minecraft:brewing_stand"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "081C7E7CA7ACCB22"
+					item: { Count: 2b, id: "minecraft:nether_wart" }
+					type: "item"
+				}
+			]
+			title: "&5&lЗельеварение "
+			x: 5.5d
+			y: 4.0d
+		}
+	]
+	title: "&4&lАд"
+}

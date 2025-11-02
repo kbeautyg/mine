@@ -11,6 +11,6 @@ banned-players.json
 ops.json
 usercache.json
 whitelist.json
-
-
+start.bat
+*.log
 

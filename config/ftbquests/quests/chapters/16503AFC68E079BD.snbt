@@ -1,0 +1,1530 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "16503AFC68E079BD"
+	group: "58C9F260FC75E0E6"
+	icon: "minecells:skeleton"
+	id: "16503AFC68E079BD"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "minecells:textures/mob_effect/cursed.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "minecells:item/biome_banner"
+			rotation: 0.0d
+			width: 1.5d
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:item/runic_vine_item"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:item/runic_vine_item"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:textures/entity/scorpion/spit.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "minecells:textures/entity/cell.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "minecells:textures/mob_effect/stunned.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:item/big_chain"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:item/big_chain"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -1.3d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:item/big_chain"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -2.1d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:textures/entity/effect/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:block/brittle_barrel"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:block/red_putrid_sapling"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -3.8d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:block/colored_torch/ramparts"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.3d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:block/colored_torch/prison"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.7d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:block/colored_torch/promenade"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.8d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.75d
+			hover: [ ]
+			image: "minecells:item/dimensional_rune_glow"
+			rotation: 0.0d
+			width: 2.75d
+			x: 9.0d
+			y: 4.15d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.75d
+			hover: [ ]
+			image: "minecells:item/dimensional_rune_glow"
+			rotation: 0.0d
+			width: 2.75d
+			x: 16.0d
+			y: -2.85d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/fire_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:textures/entity/effect/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:block/colored_torch/white"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.8d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:block/colored_torch/white"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.3d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "minecells:block/runic_vine_plant"
+			rotation: 0.0d
+			width: 1.5d
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:textures/entity/effect/stunned.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:textures/entity/effect/stunned.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "minecells:item/cage"
+			order: -1
+			rotation: 0.0d
+			width: 1.5d
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:block/runic_vine_top"
+			rotation: 180.0d
+			width: 1.0d
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:textures/entity/spawner_rune.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "minecells:item/broken_cage"
+			rotation: 180.0d
+			width: 1.5d
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "minecells:item/king_statue"
+			order: -1
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:item/health_flask"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:item/barrier_rune"
+			rotation: 90.0d
+			width: 1.0d
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:item/barrier_rune"
+			rotation: 22.5d
+			width: 1.0d
+			x: 12.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:item/barrier_rune"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:textures/mob_effect/assassins_strength.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecells:item/phaser"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -1.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"По миру спавнятся темные структуры с зеленым порталом и стражниками у них - это и есть вход в данное измерение"
+				"{image:ftbquests:block/portal_No3 width:200 height:100 align:1}"
+			]
+			icon: "minecells:prison_torch"
+			id: "02575CB2425E1DDA"
+			rewards: [
+				{
+					id: "2DAEFE171B532719"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+				{
+					id: "642D07D1A99AFD47"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "35EB17105385C16B"
+					item: {
+						Count: 1b
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				dimension: "minecells:prison"
+				icon: "minecells:rotting_corpse"
+				id: "370081FC9B4C9D45"
+				title: "Войдите в измерение &8&lТюрьмы"
+				type: "dimension"
+			}]
+			title: "Войдите в &8&lТюрьму"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02575CB2425E1DDA"]
+			description: [
+				"&8&oПримечание: есть небольшой шанс, что данная комната &nне появится!"
+				"&8&oЕсли вам неповезло, то ищите новый данж"
+				"{image:ftbquests:block/portal_under width:100 height:100 align:1}"
+			]
+			icon: "minecells:promenade_torch"
+			id: "031EE1E2715E7744"
+			rewards: [
+				{
+					id: "7399C308AEE32DFD"
+					item: {
+						Count: 1b
+						id: "vinery:noir_wine"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E3BA3E1303880AD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Выйдите на &cТропу обреченных&r пройдя через портал, расположенный на последнем этаже тюрьмы."
+			tasks: [{
+				dimension: "minecells:promenade"
+				icon: "minecells:promenade_torch"
+				id: "0E1B15907225462F"
+				title: "&7Войти в &bПортал"
+				type: "dimension"
+			}]
+			title: "&7Войти в&c Тропу обреченных"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6917FAF074525EA8"]
+			description: ["{image:ftbquests:block/loza width:200 height:100 align:1}"]
+			icon: {
+				Count: 1b
+				id: "minecells:tentacle"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "30463BF818BE6FBC"
+			rewards: [
+				{
+					id: "6C8C77CBD3E0BE2C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1673CA10B281B51B"
+					item: {
+						Count: 1b
+						id: "vinery:king_danis_wine"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "292D2561743CD0A8"
+					item: "artifacts:mimic_spawn_egg"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.0d
+			subtitle: "Где-то на верхнем этаже &8&lТюрьмы &r вы сможете найти &aзаросли лозы&r. Активировав их с помощью &5Руны Лозы&r, вы попадете к боссу &dКоньюктивиус&r."
+			tasks: [
+				{
+					entity: "minecells:conjunctivius"
+					id: "010D70E87786E722"
+					type: "kill"
+					value: 1L
+				}
+				{
+					dimension: "minecells:insufferable_crypt"
+					icon: "minecells:insufferable_crypt_dimensional_rune"
+					id: "49C10BE15C9F2C2D"
+					title: "Войдите в &5невыносимые гробницы"
+					type: "dimension"
+				}
+			]
+			title: "&d&lКонЪюктивирус"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["031EE1E2715E7744"]
+			description: [
+				"Руна, нужная для &5активации секретного прохода к боссу&r и &eоткрытия прохода в следующее измерение&r."
+				""
+				"Находится на &c&lТропе обреченных&r в строении, напоминающее &7&lШахту с лифтом посередине&r, в конце подземной части данжа"
+				"{image:ftbquests:block/shaxta width:200 height:100 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "minecells:vine_rune"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6917FAF074525EA8"
+			rewards: [
+				{
+					id: "24076E2A4F88E38C"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "0EB03B4B426DB20B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7F7802A0694031F9"
+					item: {
+						Count: 1b
+						id: "vinery:noir_wine"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "33C91450FB785869"
+					item: {
+						Count: 1b
+						id: "minecells:vine_rune"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: "minecells:elevator_mechanism"
+					id: "1AEF7015B77F2CA3"
+					structure: "minecells:promenade_underground"
+					title: "Найти &cстроение с лифтом"
+					type: "structure"
+				}
+			]
+			title: "&5&lРуна Лозы"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30463BF818BE6FBC"]
+			description: [
+				"&c&lМеч, накладывающий на Вас &c&lпроклятие."
+				""
+				"&o&8Пока на вас действует &c&lпроклятие&r&o&8 Вы имеете одно сердечко."
+			]
+			id: "2A481737564370DA"
+			rewards: [
+				{
+					id: "36272ABC5792F082"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "06E956F252BB8CCE"
+					item: {
+						Count: 1b
+						id: "mcda:phantom_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77B3F8F94F1AF1F8"
+					item: {
+						Count: 1b
+						id: "mcda:phantom_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FA0CA0751D442CD"
+					item: {
+						Count: 1b
+						id: "mcda:phantom_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "655E2B8EEDDF1F0B"
+					item: {
+						Count: 1b
+						id: "mcda:phantom_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1AB921500ACEC9DB"
+				item: {
+					Count: 1b
+					id: "minecells:cursed_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			id: "6E4BF6115CDB4430"
+			rewards: [{
+				id: "1DD256CE3254D2A3"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4BB5AC159E12624A"
+				item: {
+					Count: 1b
+					id: "minecells:blood_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "7CB8650487D70130"
+			rewards: [{
+				id: "7A28B0C7B7BA0313"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0A4767FCD514F3D1"
+				item: {
+					Count: 1b
+					id: "minecells:broadsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "4ACCBC619D87985E"
+			rewards: [{
+				id: "3E1AB50A08E14746"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "56184784CF6F772D"
+				item: {
+					Count: 1b
+					id: "minecells:balanced_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "14293E45C2722363"
+			rewards: [{
+				id: "2AA261E1F30A646E"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6A702206B06DB51B"
+				item: {
+					Count: 1b
+					id: "minecells:hattoris_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30463BF818BE6FBC"]
+			description: ["&d&lПритягивает Вас к существу/блоку на небольшом расстоянии."]
+			id: "176E451E01A2074F"
+			rewards: [
+				{
+					id: "02743F8B42FBC7EA"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:feather_falling"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03F4FEA14FAAEBC4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "5B21E5219CCF7AC5"
+				item: {
+					Count: 1b
+					id: "minecells:tentacle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			id: "4F9B50C9B0B52955"
+			rewards: [{
+				id: "0CBF7883321FD39E"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "728A9D472FA50D28"
+				item: {
+					Count: 1b
+					id: "minecells:nutcracker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "7025EF69314CACCB"
+			rewards: [{
+				id: "1418C2AE336B1C1D"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1CCD5EEC10585C75"
+				item: {
+					Count: 1b
+					id: "minecells:assassins_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "268290C1AFAFFCE9"
+			rewards: [{
+				id: "0DF759F3EFABF637"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "26AD596A2896E9CB"
+				item: {
+					Count: 1b
+					id: "minecells:crowbar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["02575CB2425E1DDA"]
+			description: [
+				"Переключает &aпортал&r на &8&lизмерение Тюрьмы&r."
+				""
+				"&8&oЭтой и подобной ей &eрунами&r &8&oможно переключить &aпортал во внешнем мире&r &8&o&cна нужное измерение&r&o&8."
+				""
+				"&8&oИспользовать ПКМ по порталу."
+			]
+			hide_dependency_lines: false
+			id: "06182EA14BC23A23"
+			rewards: [
+				{
+					id: "7C5FEC171C73D92E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "12539232EED0E4E8"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "497D515A83965BC8"
+				item: "minecells:prison_dimensional_rune"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["031EE1E2715E7744"]
+			description: [
+				"Переключает &aпортал&r на &cизмерение Тропы обречённых&r."
+				""
+				"&8&oЭтой и подобной ей &eрунами&r &8&oможно переключить &aпортал во внешнем мире&r &8&o&cна нужное измерение&r&o&8."
+				""
+				"&8&oИспользовать ПКМ по порталу."
+			]
+			hide_dependency_lines: false
+			id: "0C95596B65C68944"
+			rewards: [
+				{
+					id: "5E1C083462656D1F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1E50E2837C66D68B"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "06D5B890014C5421"
+				item: "minecells:promenade_dimensional_rune"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6B89B9A03B00586B"]
+			description: [
+				"Переключает &aпортал&r на &eизмерение Тюремных башен&r."
+				""
+				"&8&oЭтой и подобной ей &eрунами&r &8&oможно переключить &aпортал во внешнем мире&r &8&o&cна нужное измерение&r&o&8."
+				""
+				"&8&oИспользовать ПКМ по порталу."
+			]
+			id: "0EC24098B7FCA4F9"
+			rewards: [
+				{
+					id: "641DC04421C4C464"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0C1B2DA492B28948"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0CA07E3B5365723E"
+				item: "minecells:ramparts_dimensional_rune"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["30463BF818BE6FBC"]
+			description: [
+				"Переключает &aпортал&r на &5измерение Невыносимой гробницы&r."
+				""
+				"&8&oЭтой и подобной ей &eрунами&r &8&oможно переключить &aпортал во внешнем мире&r &8&o&cна нужное измерение&r&o&8."
+				""
+				"&8&oИспользовать ПКМ по порталу."
+			]
+			hide_dependency_lines: false
+			id: "1F91F327E36D8C44"
+			rewards: [
+				{
+					id: "2B6A54A192F59525"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2370ABA19285A3A0"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7EAD0A051F733DB4"
+				item: "minecells:insufferable_crypt_dimensional_rune"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2737DA15CE8BDB82"]
+			description: [
+				"Переключает &aпортал&r на &5измерение Чёрного моста&r."
+				""
+				"&8&oЭтой и подобной ей &eрунами&r &8&oможно переключить &aпортал во внешнем мире&r &8&o&cна нужное измерение&r&o&8."
+				""
+				"&8&oИспользовать ПКМ по порталу."
+			]
+			id: "44A185A8C91C2DE5"
+			rewards: [
+				{
+					id: "4FCA6DB00910838C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "24C525D156143C41"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "49CB85B03F7C551D"
+				item: "minecells:black_bridge_dimensional_rune"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["30463BF818BE6FBC"]
+			description: [
+				"Используется для перепризыва &dсоответсвующего босса&r на &cалтаре, который появляется после его смерти&r."
+				""
+				"&8&oЭта руна тратится, в отличии от &aрун портала&r&o&8."
+			]
+			id: "069B3D9A6985ABA0"
+			rewards: [
+				{
+					id: "535545B4A42EEFF3"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "785E5757924E4B0B"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "42690FD0EDCDF0B9"
+					item: "minecells:blank_rune"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "34D6C56EBC45C065"
+				item: "minecells:conjunctivius_respawn_rune"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2737DA15CE8BDB82"]
+			description: [
+				"Используется для перепризыва &dсоответсвующего босса&r на &cалтаре, который появляется после его смерти&r."
+				""
+				"&8&oЭта руна тратится, в отличии от &aрун портала&r&o&8."
+			]
+			id: "25406786309BDEA0"
+			rewards: [
+				{
+					id: "0BC4164033F415C0"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "1951A544F7463AFE"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "3E59E4191ED36E69"
+					item: "minecells:blank_rune"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "44E9B79EAFBD802F"
+				item: "minecells:concierge_respawn_rune"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6917FAF074525EA8"]
+			description: [
+				"Находится в &c&lТропе обреченных, рядом со спавном&r."
+				""
+				"В ней вы можете найти &aзаросли лозы*&r, по которым можно пробраться &cна верх башни&r, активировав их &5Руной Лозы&r."
+				""
+				"&o&8*посмотреть на блок можно в квесте про &dконъюктивируса&r&8&o."
+			]
+			id: "24891C53B28F3CA9"
+			rewards: [
+				{
+					count: 2
+					id: "7FA7C0C6F21845BC"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "2C74FD04CD1AAB8D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "37B59E50DA69DF47"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecells:prison_bricks"
+				id: "03AA8D0BFBEFAEE6"
+				structure: "minecells:promenade_spawn"
+				title: "Найти &cБашню"
+				type: "structure"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["24891C53B28F3CA9"]
+			description: ["Измерение, состоящее из случайной комбинации башен, представляющих собой &cпуть к боссу&r. "]
+			id: "6B89B9A03B00586B"
+			rewards: [
+				{
+					count: 2
+					id: "6AE7793D5C2312CA"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "095B2E31D4CA2815"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				dimension: "minecells:ramparts"
+				icon: "minecells:ramparts_torch"
+				id: "13899BA101BE3878"
+				title: "Войти в &eТюремные башни"
+				type: "dimension"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2737DA15CE8BDB82"]
+			description: ["&6&lОружие, которое имитирует огненную атаку &c&lбосса&6&l, но делает это в линию, а не кольцом."]
+			id: "6CB1C97CD038571E"
+			rewards: [
+				{
+					id: "604153694A4DE8BA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0A6C3057B309AEBD"
+					item: "netherdepthsupgrade:searing_cod"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E3CCF24418A77E5"
+				item: {
+					Count: 1b
+					id: "minecells:flint"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			id: "3765CC0DC797E97B"
+			rewards: [{
+				id: "76FD2913C0B4AF50"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "62C9661F2EFA261B"
+				item: {
+					Count: 1b
+					id: "minecells:spite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "063D2136D319F0B6"
+			rewards: [{
+				id: "3128383DA1C4C6FC"
+				item: {
+					Count: 1b
+					id: "minecraft:leather_boots"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 1.0d
+								AttributeName: "minecraft:generic.armor"
+								Name: "base_armor"
+								Operation: 0
+								Slot: "feet"
+								UUID: [I;
+									-1388879471
+									512575520
+									-1314873931
+									-11542015
+								]
+							}
+							{
+								Amount: 0.05d
+								AttributeName: "obscure_api:critical_hit"
+								Name: "base_bonus"
+								Operation: 2
+								Slot: "feet"
+								UUID: [I;
+									-1836813928
+									1843482443
+									-1311402979
+									-504880279
+								]
+							}
+						]
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 1s
+						}]
+						display: {
+							Name: "{\"translate\":\"set.aquamirae.sea_tramps_boots\"}"
+							color: 688860
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "190014153C6B80B6"
+				item: {
+					Count: 1b
+					id: "minecells:phaser"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "1B670079E7551E02"
+			rewards: [
+				{
+					count: 32
+					id: "1B8A7464DEFB48E0"
+					item: "minecraft:blue_ice"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5479075CCFAC9249"
+					item: "beachparty:coconut_milkshake"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2CC0DE69E41F0721"
+					item: "minecraft:ice"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "7C8C366519736111"
+				item: {
+					Count: 1b
+					id: "minecells:frost_blast"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6B89B9A03B00586B"]
+			description: [
+				"В конце &eТюремных башен&r будет &5здание с фиолетовыми флагами&r, в котором будет &cлифт к порталу босса&r."
+				""
+				"Сам же &cбосс&r будет &cвесьма сложным&r противником, поэтому &aхорошенько приготовьтесь к битве с ним&r."
+			]
+			icon: "minecells:black_bridge_flag"
+			id: "2737DA15CE8BDB82"
+			rewards: [
+				{
+					id: "27E06B7D2CDD093F"
+					item: "artifacts:cross_necklace"
+					type: "item"
+				}
+				{
+					id: "37E19BB0221F018F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "29A5709E39FC7FD5"
+					item: "artifacts:mimic_spawn_egg"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [
+				{
+					icon: "minecells:black_bridge_dimensional_rune"
+					id: "635EA17F351120B6"
+					observe_type: 0
+					timer: 0L
+					title: "Найдите проход в &5Чёрный мост"
+					to_observe: "minecells:black_bridge_doorway"
+					type: "observation"
+				}
+				{
+					dimension: "minecells:black_bridge"
+					icon: "minecells:black_bridge_flag"
+					id: "45AB0C614D70E246"
+					title: "Войти в &5Чёрный мост"
+					type: "dimension"
+				}
+				{
+					entity: "minecells:concierge"
+					icon: "minecells:runner_spawn_egg"
+					id: "35F8E70349E3A431"
+					title: "Убейте &d&lПривратника"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&d&lПривратник"
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Вы можете &eсделать лифт&r как на локациях с &cбоссами&r самостоятельно!"
+				""
+				"&eДля этого нужно:"
+				""
+				"1) Расчитить область &b3x3xВысоту лифта которую вы хотите."
+				""
+				"2) Расположить цепи &bслева и справа от центрального блока&r до конечной высоты Вашего &eлифта&r."
+				""
+				"3) Поставьте &bодин установщик лифта&r в точке, куда он должен приходить, и &bвторой&r в самом низу конструкции."
+				""
+				"4) Поставьте &bнажимные плиты&r для вызова лифта &8&o(необязательно)&r."
+				""
+				"&ePROFIT"
+				""
+				"&8&oЕсли что-то осталось непонятным, можете посмотреть ролик \"Minecraft - Mine Cells Mod - How to use Elevators\""
+			]
+			icon: "minecells:elevator_assembler"
+			id: "6CC4E86844C1EF1C"
+			rewards: [{
+				id: "7F1C1440375F9C7C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "4882AE5FB91B94A7"
+					item: { Count: 16b, id: "minecraft:chain" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "145D929A2A428DBA"
+					item: { Count: 2b, id: "minecells:elevator_assembler" }
+					type: "item"
+				}
+			]
+			title: "&f&lЛифт"
+			x: 18.5d
+			y: 0.0d
+		}
+	]
+	title: "&f&lDead Cells в майнкрафте!"
+}

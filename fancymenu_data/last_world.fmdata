@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/zokki/curseforge/minecraft/Instances/1.3.4 no config/saves/Новый мир
+}
+

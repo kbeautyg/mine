@@ -1,80 +1,54 @@
 #!/bin/bash
 
-# Скрипт запуска Minecraft Forge сервера 1.12.2
+# Скрипт запуска Minecraft Fabric сервера - Arcania 1.3.3
 
 echo "=========================================="
-echo "Minecraft 1.12.2 Forge Server Launcher"
+echo "Minecraft 1.20.1 Fabric Server - Arcania 1.3.3"
 echo "=========================================="
 
 # Установка переменных
-FORGE_VERSION="${FORGE_VERSION:-14.23.5.2860}"
-MINECRAFT_VERSION="${MINECRAFT_VERSION:-1.12.2}"
-FORGE_INSTALLER="forge-${MINECRAFT_VERSION}-${FORGE_VERSION}-installer.jar"
-FORGE_UNIVERSAL="forge-${MINECRAFT_VERSION}-${FORGE_VERSION}-universal.jar"
-MEMORY="${MEMORY:-2G}"
+MEMORY="${MEMORY:-8G}"
 PORT="${PORT:-25565}"
-
-# Проверяем, установлен ли Forge
-if [ ! -f "$FORGE_UNIVERSAL" ]; then
-    echo "Forge не найден, загружаем..."
-    
-    # Загружаем Forge installer
-    if [ ! -f "$FORGE_INSTALLER" ]; then
-        echo "Загрузка Forge installer..."
-        wget -q "https://maven.minecraftforge.net/net/minecraftforge/forge/${MINECRAFT_VERSION}-${FORGE_VERSION}/forge-${MINECRAFT_VERSION}-${FORGE_VERSION}-installer.jar" -O "$FORGE_INSTALLER"
-        
-        if [ $? -ne 0 ]; then
-            echo "Ошибка загрузки Forge installer!"
-            exit 1
-        fi
-    fi
-    
-    # Устанавливаем Forge
-    echo "Установка Forge сервера..."
-    java -jar "$FORGE_INSTALLER" --installServer
-    
-    if [ $? -ne 0 ]; then
-        echo "Ошибка установки Forge!"
-        exit 1
-    fi
-    
-    echo "Forge успешно установлен!"
-fi
 
 # Обновляем порт в server.properties если указан PORT
 if [ ! -z "$PORT" ]; then
     sed -i "s/server-port=.*/server-port=$PORT/" server.properties
 fi
 
-# Запускаем сервер
+# Информация о запуске
 echo "=========================================="
 echo "Запуск сервера на порту $PORT"
 echo "Выделено памяти: $MEMORY"
+echo "Модов загружено: $(ls -1 mods/*.jar 2>/dev/null | wc -l)"
 echo "=========================================="
 
-# Ищем правильный JAR файл для запуска
-if [ -f "$FORGE_UNIVERSAL" ]; then
-    SERVER_JAR="$FORGE_UNIVERSAL"
-elif [ -f "forge-${MINECRAFT_VERSION}-${FORGE_VERSION}.jar" ]; then
-    SERVER_JAR="forge-${MINECRAFT_VERSION}-${FORGE_VERSION}.jar"
-else
-    echo "Не найден файл сервера!"
-    ls -la
+# Проверяем наличие server.jar
+if [ ! -f "server.jar" ]; then
+    echo "ОШИБКА: server.jar не найден!"
     exit 1
 fi
 
+# Запускаем сервер с оптимизированными параметрами JVM для Fabric
 exec java -Xms${MEMORY} -Xmx${MEMORY} \
     -XX:+UseG1GC \
+    -XX:+ParallelRefProcEnabled \
+    -XX:MaxGCPauseMillis=200 \
     -XX:+UnlockExperimentalVMOptions \
-    -XX:MaxGCPauseMillis=100 \
     -XX:+DisableExplicitGC \
-    -XX:TargetSurvivorRatio=90 \
-    -XX:G1NewSizePercent=50 \
-    -XX:G1MaxNewSizePercent=80 \
-    -XX:InitiatingHeapOccupancyPercent=10 \
-    -XX:G1MixedGCLiveThresholdPercent=50 \
-    -Dfml.queryResult=confirm \
-    -jar "$SERVER_JAR" nogui
-
-
+    -XX:+AlwaysPreTouch \
+    -XX:G1NewSizePercent=30 \
+    -XX:G1MaxNewSizePercent=40 \
+    -XX:G1HeapRegionSize=8M \
+    -XX:G1ReservePercent=20 \
+    -XX:G1HeapWastePercent=5 \
+    -XX:G1MixedGCCountTarget=4 \
+    -XX:InitiatingHeapOccupancyPercent=15 \
+    -XX:G1MixedGCLiveThresholdPercent=90 \
+    -XX:G1RSetUpdatingPauseTimePercent=5 \
+    -XX:SurvivorRatio=32 \
+    -XX:+PerfDisableSharedMem \
+    -XX:MaxTenuringThreshold=1 \
+    -Dusing.aikars.flags=https://mcflags.emc.gs \
+    -Daikars.new.flags=true \
+    -jar server.jar nogui
 

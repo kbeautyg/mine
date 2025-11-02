@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "28A047DAEA79CB0D", title: "&2&lЭто база" }
+		{ id: "58C9F260FC75E0E6", title: "&e&lИсследование миров" }
+		{ id: "7B731D9853D1E8C6", title: "&a&lПутешествие" }
+	]
+}

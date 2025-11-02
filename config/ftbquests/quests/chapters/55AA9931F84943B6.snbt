@@ -1,0 +1,159 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "55AA9931F84943B6"
+	group: ""
+	icon: "minecraft:recovery_compass"
+	id: "55AA9931F84943B6"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "ftbquests:block/text2"
+			rotation: 0.0d
+			width: 16.0d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:block/text3"
+			rotation: 0.0d
+			width: 3.2d
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "ftbquests:block/text4"
+			rotation: 0.0d
+			width: 9.600000000000001d
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			click: "https://discord.gg/KecCtuAQmj"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Тыкни"]
+			image: "minecells:textures/gui/button/discord.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:block/text3"
+			rotation: 0.0d
+			width: 3.2d
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: ["Кликни на значок дискорда - там будет дискорд Аркании, в котором тебе смогут помочь со всеми проблемами и вопросами."]
+			image: "ftbquests:textures/gui/alert.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 8.5d
+			y: 3.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&eПожалуйста ознакомьтесь с этим разделом если у вас проблемы с Арканией &r"]
+			icon: "minecraft:recovery_compass"
+			id: "069C3EDE17C51CA1"
+			rewards: [{
+				id: "489E06F13A0D9780"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "1B9E197A4018F932"
+				title: "&4&lДоп. Сведенья по поводу оптимизации"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&e/lagcleaner_cooldown&r Задать интервал удаления мусорных обьектов объектов в тиках (1 тик = 1/20 секунды). (по дефолту 3200 тиков)"
+				""
+				""
+				"&e/lagcleaner_warn&r  (&atrue&r/&cfalse&r)  Выводится предупреждение перед удалением или нет. (по дефолту - выкл)"
+				""
+				""
+				"Мод самописный. "
+			]
+			icon: "bewitchment:juniper_broom"
+			id: "7E1526D01DE57967"
+			rewards: [{
+				id: "055A36DD067739DF"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "25060AF89CB31C9A"
+				title: "&eArcania Cleaner"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Если вы хотите поставить сглаживание: &lminus milo v daleke &r"
+				""
+				"&c- Они понижают фпс"
+				""
+				"&a- Они вообще ничего не изменяют в ванильном майне"
+				""
+				"&a- Просто убирает некоректный вид обьектов вдалеке&r &c(без шейдеров не пофиксить)&r\\"
+				""
+				""
+				"(с любыми шейдерами убирается резкость листьев итд в далеке)"
+			]
+			icon: "minecraft:painting"
+			id: "3EF048F9326B9FCE"
+			rewards: [{
+				id: "1660F8C8CB053DE9"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7440F98665FBC184"
+				title: "&eШейдары"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+	]
+	title: "&4&lОптимизация/настройки"
+}
